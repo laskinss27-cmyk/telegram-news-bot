@@ -1,4 +1,17 @@
 {
   "version": 1,
-  "items": []
+  "items": [
+    {
+      "key": "3e1f8ef264cb5577cb51978f81c130176705550d477ec09e4e57e361afbc4002",
+      "url": "https://www.secuteck.ru/news/novinka-multiobektivnaya-skorostnaya-ptz-videokamera",
+      "title": "Новинка! Мультиобъективная скоростная PTZ-видеокамера",
+      "posted_at": "2026-07-30T12:58:37.864490+00:00"
+    },
+    {
+      "key": "3ed7a7cc657238a675d82d7d78c7428c05b51ca6b13ec1741b5d0de16ef11ba3",
+      "url": "https://habr.com/ru/companies/wirenboard/articles/1064742",
+      "title": "Умный дом из клееного бруса: как это сделано",
+      "posted_at": "2026-07-30T12:58:40.546506+00:00"
+    }
+  ]
 }
