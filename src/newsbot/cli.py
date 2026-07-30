@@ -4,30 +4,46 @@ import argparse
 import logging
 import sys
 
-from .app import discover_moderation_chats, run
+from .app import discover_moderation_chats, process_moderation, run
 from .config import ConfigError, load_config
 from .telegram import TelegramError
 
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Собирает тематические новости из RSS и публикует в Telegram."
+        description=(
+            "Собирает тематические новости, отправляет их на модерацию "
+            "и публикует одобренные материалы в Telegram."
+        )
     )
-    parser.add_argument("--config", default="config.yaml", help="путь к YAML-настройкам")
     parser.add_argument(
+        "--config", default="config.yaml", help="путь к YAML-настройкам"
+    )
+    modes = parser.add_mutually_exclusive_group()
+    modes.add_argument(
         "--dry-run",
         action="store_true",
-        help="показать будущие посты, ничего не публикуя",
+        help="показать будущие посты, ничего не отправляя",
     )
-    parser.add_argument(
+    modes.add_argument(
         "--check",
         action="store_true",
-        help="проверить настройки и доступ бота к чату",
+        help="проверить настройки и доступ бота к каналу и предложке",
     )
-    parser.add_argument(
+    modes.add_argument(
         "--discover-chats",
         action="store_true",
         help="найти ID чатов, в которых боту отправили команду /id",
+    )
+    modes.add_argument(
+        "--queue",
+        action="store_true",
+        help="собрать новости и отправить их в предложку",
+    )
+    modes.add_argument(
+        "--process-moderation",
+        action="store_true",
+        help="обработать нажатия кнопок в предложке",
     )
     return parser
 
@@ -47,7 +63,15 @@ def main() -> int:
         config = load_config(args.config)
         if args.discover_chats:
             return discover_moderation_chats(config)
-        return run(config, dry_run=args.dry_run, check_only=args.check)
+        if args.process_moderation:
+            return process_moderation(config)
+        return run(
+            config,
+            dry_run=args.dry_run,
+            check_only=args.check,
+            # Обычный запуск тоже безопасно отправляет материал в предложку.
+            queue_for_review=args.queue or (not args.dry_run and not args.check),
+        )
     except (ConfigError, RuntimeError, TelegramError) as exc:
         logging.error("%s", exc)
         return 1

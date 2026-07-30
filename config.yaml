@@ -217,4 +217,5 @@ runtime:
   request_timeout_seconds: 20
   user_agent: "TelegramNewsBot/0.1 (+RSS reader)"
   state_file: "data/state.json"
+  moderation_file: "data/moderation.json"
   state_max_items: 1000

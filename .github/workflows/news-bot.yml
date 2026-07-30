@@ -1,9 +1,11 @@
-name: Publish Telegram news
+name: Telegram news moderation
 
 on:
   schedule:
-    # Каждый час на 17-й минуте. GitHub использует UTC.
+    # Сбор новых материалов раз в час. GitHub использует UTC.
     - cron: "17 * * * *"
+    # Обработка кнопок в предложке. GitHub может запускать с небольшой задержкой.
+    - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -14,17 +16,18 @@ on:
         options:
           - "check"
           - "discover"
-          - "publish"
+          - "collect"
+          - "process"
 
 concurrency:
-  group: telegram-news-publisher
+  group: telegram-news-moderation
   cancel-in-progress: false
 
 permissions:
   contents: write
 
 jobs:
-  publish:
+  moderation:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -40,28 +43,33 @@ jobs:
       - name: Install bot
         run: pip install .
 
-      - name: Check or publish
+      - name: Collect news or process moderation
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_MODERATION_CHAT_ID: ${{ secrets.TELEGRAM_MODERATION_CHAT_ID }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "discover" ]; then
             news-bot --config config.yaml --discover-chats
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "check" ]; then
             news-bot --config config.yaml --check
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "process" ]; then
+            news-bot --config config.yaml --process-moderation
+          elif [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "*/5 * * * *" ]; then
+            news-bot --config config.yaml --process-moderation
           else
-            news-bot --config config.yaml
+            news-bot --config config.yaml --queue
           fi
 
-      - name: Save publication history
-        if: github.event_name == 'schedule' || inputs.mode == 'publish'
+      - name: Save bot state
+        if: always() && (github.event_name == 'schedule' || inputs.mode == 'collect' || inputs.mode == 'process')
         run: |
-          if git diff --quiet -- data/state.json; then
+          if git diff --quiet -- data/state.json data/moderation.json; then
             echo "No state changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/state.json
-          git commit -m "chore: update published news state [skip ci]"
+          git add data/state.json data/moderation.json
+          git commit -m "chore: update Telegram moderation state [skip ci]"
           git push

@@ -1,9 +1,9 @@
 from __future__ import annotations
 
+import json
 import logging
 from io import BytesIO
 from pathlib import PurePosixPath
-import json
 from urllib.parse import urlsplit
 
 import requests
@@ -124,27 +124,137 @@ class TelegramPublisher:
             LOGGER.warning("Не удалось скачать изображение %s: %s", image_url, exc)
             return None
 
-    def publish(self, text: str, image_url: str | None) -> None:
+    def publish(
+        self,
+        text: str,
+        image_url: str | None,
+        photo_file_id: str | None = None,
+    ) -> dict:
         common = {
             "chat_id": self._chat_id,
             "parse_mode": "HTML",
             "disable_notification": str(self._disable_notification).lower(),
+        }
+        if photo_file_id:
+            try:
+                return self._request(
+                    "sendPhoto",
+                    data={**common, "photo": photo_file_id, "caption": text},
+                )
+            except TelegramError as exc:
+                LOGGER.warning(
+                    "Не удалось переиспользовать фото из Telegram, пробую исходное: %s",
+                    exc,
+                )
+        if image_url:
+            image = self._download_image(image_url)
+            if image:
+                name, content = image
+                try:
+                    return self._request(
+                        "sendPhoto",
+                        data={**common, "caption": text},
+                        files={"photo": (name, content)},
+                    )
+                except TelegramError as exc:
+                    LOGGER.warning(
+                        "Фото не отправлено, отправляю текст: %s", exc
+                    )
+        return self._request(
+            "sendMessage",
+            data={**common, "text": text, "disable_web_page_preview": "false"},
+        )
+
+    @staticmethod
+    def _review_keyboard(draft_id: str) -> str:
+        return json.dumps(
+            {
+                "inline_keyboard": [
+                    [
+                        {
+                            "text": "✅ Опубликовать",
+                            "callback_data": f"publish:{draft_id}",
+                        },
+                        {
+                            "text": "❌ Пропустить",
+                            "callback_data": f"skip:{draft_id}",
+                        },
+                    ]
+                ]
+            },
+            ensure_ascii=False,
+        )
+
+    def send_for_review(
+        self,
+        text: str,
+        image_url: str | None,
+        draft_id: str,
+    ) -> dict:
+        common = {
+            "chat_id": self._chat_id,
+            "parse_mode": "HTML",
+            "disable_notification": "false",
+            "reply_markup": self._review_keyboard(draft_id),
         }
         if image_url:
             image = self._download_image(image_url)
             if image:
                 name, content = image
                 try:
-                    self._request(
+                    return self._request(
                         "sendPhoto",
                         data={**common, "caption": text},
                         files={"photo": (name, content)},
                     )
-                    return
                 except TelegramError as exc:
-                    LOGGER.warning("Фото не отправлено, отправляю текст: %s", exc)
-
-        self._request(
+                    LOGGER.warning(
+                        "Фото не отправлено в предложку, отправляю текст: %s",
+                        exc,
+                    )
+        return self._request(
             "sendMessage",
             data={**common, "text": text, "disable_web_page_preview": "false"},
+        )
+
+    def get_callback_updates(self, offset: int) -> list[dict]:
+        data: dict[str, str | int] = {
+            "limit": 100,
+            "timeout": 0,
+            "allowed_updates": json.dumps(["callback_query"]),
+        }
+        if offset > 0:
+            data["offset"] = offset
+        result = self._request("getUpdates", data=data)
+        return result if isinstance(result, list) else []
+
+    def answer_callback(self, callback_query_id: str, text: str) -> None:
+        self._request(
+            "answerCallbackQuery",
+            data={
+                "callback_query_id": callback_query_id,
+                "text": text,
+                "show_alert": "false",
+            },
+        )
+
+    def remove_review_buttons(self, message_id: int) -> None:
+        self._request(
+            "editMessageReplyMarkup",
+            data={
+                "chat_id": self._chat_id,
+                "message_id": message_id,
+                "reply_markup": json.dumps({"inline_keyboard": []}),
+            },
+        )
+
+    def send_review_result(self, message_id: int, text: str) -> None:
+        self._request(
+            "sendMessage",
+            data={
+                "chat_id": self._chat_id,
+                "text": text,
+                "reply_to_message_id": message_id,
+                "disable_notification": "true",
+            },
         )

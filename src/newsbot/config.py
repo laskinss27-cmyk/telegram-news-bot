@@ -29,6 +29,7 @@ DEFAULTS: dict[str, dict[str, Any]] = {
         "request_timeout_seconds": 20,
         "user_agent": "TelegramNewsBot/0.1 (+RSS reader)",
         "state_file": "data/state.json",
+        "moderation_file": "data/moderation.json",
         "state_max_items": 1000,
     },
 }
@@ -142,4 +143,9 @@ def load_config(path: str | Path) -> dict[str, Any]:
     if not state_path.is_absolute():
         state_path = config_path.parent / state_path
     config["runtime"]["state_file"] = state_path
+
+    moderation_path = Path(config["runtime"]["moderation_file"])
+    if not moderation_path.is_absolute():
+        moderation_path = config_path.parent / moderation_path
+    config["runtime"]["moderation_file"] = moderation_path
     return config

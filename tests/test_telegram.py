@@ -1,7 +1,9 @@
 import unittest
 from unittest.mock import Mock
 
-from newsbot.telegram import discover_command_chats
+import json
+
+from newsbot.telegram import TelegramPublisher, discover_command_chats
 
 
 class TelegramDiscoveryTests(unittest.TestCase):
@@ -66,6 +68,37 @@ class TelegramDiscoveryTests(unittest.TestCase):
         session.post.return_value = response
 
         self.assertEqual(discover_command_chats("secret", session, 20), [])
+
+
+class TelegramReviewTests(unittest.TestCase):
+    def test_review_message_has_publish_and_skip_buttons(self):
+        response = Mock()
+        response.ok = True
+        response.json.return_value = {
+            "ok": True,
+            "result": {"message_id": 123},
+        }
+        session = Mock()
+        session.post.return_value = response
+        publisher = TelegramPublisher(
+            "secret", "-1001234567890", session, 20
+        )
+
+        result = publisher.send_for_review(
+            "<b>Новость</b>", None, "abcdef1234567890"
+        )
+
+        self.assertEqual(result["message_id"], 123)
+        _, kwargs = session.post.call_args
+        keyboard = json.loads(kwargs["data"]["reply_markup"])
+        buttons = keyboard["inline_keyboard"][0]
+        self.assertEqual(
+            [button["callback_data"] for button in buttons],
+            [
+                "publish:abcdef1234567890",
+                "skip:abcdef1234567890",
+            ],
+        )
 
 
 if __name__ == "__main__":
