@@ -1,0 +1,220 @@
+# Проверенные 30.07.2026 русскоязычные RSS-ленты.
+# Общие технологические ленты ниже очищаются тематическим фильтром.
+sources:
+  - name: "Secuteck — новости систем безопасности"
+    rss_url: "https://www.secuteck.ru/news/rss.xml"
+    enabled: true
+    include_any:
+      - "видеокамер"
+      - "PTZ"
+      - "СКУД"
+    exclude: []
+    fetch_article: true
+
+  - name: "HubiQ — технологии умного дома"
+    rss_url: "https://hubiq.ru/feed/"
+    enabled: true
+    include_any:
+      - "Matter"
+      - "Thread"
+      - "Zigbee"
+      - "Z-Wave"
+      - "Home Assistant"
+      - "OpenHAB"
+      - "Aqara"
+    exclude: []
+    fetch_article: true
+
+  - name: "Хабр — Умный дом"
+    rss_url: "https://habr.com/ru/rss/hub/home_automation/all/?fl=ru"
+    enabled: true
+    include_any: []
+    exclude:
+      - "дайджест вакансий"
+    fetch_article: true
+
+  - name: "Ferra — технологии"
+    rss_url: "https://www.ferra.ru/exports/rss.xml"
+    enabled: true
+    include_any: []
+    exclude: []
+    fetch_article: true
+
+  - name: "iXBT Live — техника для дома"
+    rss_url: "https://www.ixbt.com/live/rss/blog/chome/"
+    enabled: true
+    include_any: []
+    exclude:
+      - "скидка"
+      - "распродажа"
+      - "промокод"
+    fetch_article: true
+
+  # У CTV лента RSS пустая, поэтому читаем верхнюю карточку раздела новостей.
+  - name: "CTV — официальные новости"
+    kind: "html"
+    adapter: "ctv_news"
+    page_url: "https://ctvcctv.ru/news/"
+    enabled: true
+    max_entries: 1
+    skip_undated: true
+    include_any:
+      - "CTV"
+      - "СКУД"
+      - "домофон"
+      - "видеокамер"
+    require_any: []
+    exclude:
+      - "акция"
+      - "скидка"
+      - "специальная цена"
+    fetch_article: true
+
+  - name: "Dahua — официальный newsroom"
+    kind: "html"
+    adapter: "dahua_news"
+    page_url: "https://previous.dahuasecurity.com/newsEvents/pressRelease"
+    enabled: true
+    translate: true
+    max_entries: 20
+    skip_undated: true
+    include_any:
+      - "Dahua"
+    require_any:
+      - "camera"
+      - "video"
+      - "HDCVI"
+      - "intercom"
+      - "access control"
+      - "security"
+      - "alarm"
+      - "monitoring"
+      - "analytics"
+      - "AIoT"
+    exclude:
+      - "sponsorship"
+      - "donates"
+    fetch_article: true
+
+  - name: "Tiandy — официальные новости"
+    kind: "html"
+    adapter: "tiandy_news"
+    page_url: "https://en.tiandy.com/news/"
+    enabled: true
+    translate: true
+    max_entries: 30
+    skip_undated: true
+    include_any:
+      - "Tiandy"
+    require_any:
+      - "camera"
+      - "IPC"
+      - "NVR"
+      - "video"
+      - "surveillance"
+      - "security"
+      - "ColorMaker"
+      - "Starlight"
+      - "intercom"
+    exclude:
+      - "shopping festival"
+      - "warranty"
+      - "password"
+    fetch_article: true
+
+  - name: "Shelly — официальный media kit"
+    kind: "html"
+    adapter: "shelly_sitemap"
+    page_url: "https://www.shelly.com/sitemap_blogs_1.xml"
+    url_contains: "/blogs/media-kit/"
+    enabled: true
+    translate: true
+    max_entries: 20
+    skip_undated: true
+    include_any:
+      - "Shelly"
+    require_any:
+      - "smart"
+      - "Matter"
+      - "Zigbee"
+      - "Z-Wave"
+      - "Home Assistant"
+      - "automation"
+      - "IoT"
+      - "sensor"
+      - "relay"
+      - "energy"
+      - "lock"
+    exclude: []
+    fetch_article: true
+
+topic:
+  # Используются основы слов, чтобы находить разные падежи.
+  include_any:
+    - "умный дом"
+    - "умного дома"
+    - "умном доме"
+    - "умные дома"
+    - "умных домов"
+    - "умная квартира"
+    - "умное здание"
+    - "домашняя автоматиза"
+    - "видеонаблюден"
+    - "видеоаналитик"
+    - "видеодомофон"
+    - "видеодомофони"
+    - "ip-домофон"
+    - "ip домофон"
+    - "домофон"
+    - "ip-камер"
+    - "ip камер"
+    - "камеры наблюдения"
+    - "охранная камера"
+    - "камеры безопасности"
+    - "умная камера"
+    - "умный замок"
+    - "умные замки"
+    - "контроль доступа"
+    - "Matter"
+    - "Zigbee"
+    - "Z-Wave"
+    - "Home Assistant"
+    - "Sprut.Hub"
+    - "KNX"
+    # Приоритетные бренды.
+    - "Dahua"
+    - "Дахуа"
+    - "HDCVI"
+    - "Tiandy"
+    - "Тианди"
+    - "CTV"
+    - "Shelly"
+    - "Шелли"
+  exclude:
+    - "реклама"
+    - "партнерский материал"
+    - "партнёрский материал"
+    - "БПЛА"
+    - "боевые действия"
+    - "военная техника"
+
+translation:
+  provider: "google_cloud"
+  target_language: "ru"
+  # Не публиковать англоязычный оригинал, если перевод не удался.
+  required: true
+
+publishing:
+  max_posts_per_run: 3
+  # Не публиковать материалы старше указанного количества часов.
+  lookback_hours: 24
+  summary_max_chars: 500
+  disable_notification: false
+  add_source_name: true
+  add_link: true
+
+runtime:
+  request_timeout_seconds: 20
+  user_agent: "TelegramNewsBot/0.1 (+RSS reader)"
+  state_file: "data/state.json"
+  state_max_items: 1000

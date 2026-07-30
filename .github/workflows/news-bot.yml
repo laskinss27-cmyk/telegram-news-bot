@@ -1,0 +1,50 @@
+name: Publish Telegram news
+
+on:
+  schedule:
+    # Каждый час на 17-й минуте. GitHub использует UTC.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: telegram-news-publisher
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install bot
+        run: pip install .
+
+      - name: Collect and publish
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GOOGLE_TRANSLATE_API_KEY: ${{ secrets.GOOGLE_TRANSLATE_API_KEY }}
+        run: news-bot --config config.yaml
+
+      - name: Save publication history
+        run: |
+          if git diff --quiet -- data/state.json; then
+            echo "No state changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/state.json
+          git commit -m "chore: update published news state [skip ci]"
+          git push
