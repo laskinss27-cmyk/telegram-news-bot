@@ -5,6 +5,15 @@ on:
     # Каждый час на 17-й минуте. GitHub использует UTC.
     - cron: "17 * * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Режим ручного запуска"
+        required: true
+        default: "check"
+        type: choice
+        options:
+          - "check"
+          - "publish"
 
 concurrency:
   group: telegram-news-publisher
@@ -30,13 +39,19 @@ jobs:
       - name: Install bot
         run: pip install .
 
-      - name: Collect and publish
+      - name: Check or publish
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: news-bot --config config.yaml
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "check" ]; then
+            news-bot --config config.yaml --check
+          else
+            news-bot --config config.yaml
+          fi
 
       - name: Save publication history
+        if: github.event_name == 'schedule' || inputs.mode == 'publish'
         run: |
           if git diff --quiet -- data/state.json; then
             echo "No state changes"
