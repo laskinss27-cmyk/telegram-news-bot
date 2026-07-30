@@ -2,8 +2,8 @@
 
 Бот читает RSS-ленты выбранных порталов, фильтрует записи по ключевым словам,
 не публикует повторы, берёт изображение и краткое описание статьи и отправляет
-пост в Telegram. Постоянно работающий сервер не нужен; для перевода используется
-бесплатный месячный лимит Google Cloud Translation.
+пост в Telegram. Постоянно работающий сервер, платёжный аккаунт и платный API
+не нужны.
 
 ## Что уже умеет
 
@@ -49,25 +49,17 @@ HTML-страницы без RSS требуют отдельного адапт�
 
 ## 2. Настроить бесплатный перевод
 
-Google Cloud Translation бесплатно обрабатывает первые 500 000 символов в
-месяц. Для объёма этого бота этого достаточно с большим запасом, но Google
-может потребовать подключить платёжный аккаунт.
-
-1. Создайте проект в [Google Cloud Console](https://console.cloud.google.com/).
-2. Подключите
-   [Cloud Translation API](https://console.cloud.google.com/apis/library/translate.googleapis.com).
-3. В разделе `APIs & Services → Credentials` создайте API key.
-4. В ограничениях ключа разрешите только `Cloud Translation API`.
-5. Чтобы исключить расходы, в квотах Cloud Translation задайте лимит
-   `Characters per day` не более `15000`.
-6. Сохраните ключ в переменной `GOOGLE_TRANSLATE_API_KEY`. Не добавляйте
-   настоящий ключ в файлы проекта.
+Используется бесплатный [MyMemory Translation API](https://mymemory.translated.net/doc/spec.php).
+Регистрация, банковская карта и отдельный ключ не нужны. Бот отправляет на
+перевод только уже отобранные новости и автоматически делит длинное описание
+на небольшие части. Если бесплатный лимит сервиса исчерпан или сервис временно
+недоступен, англоязычная статья не публикуется.
 
 В `config.yaml` перевод включён только у англоязычных источников:
 
 ```yaml
 translation:
-  provider: "google_cloud"
+  provider: "mymemory"
   target_language: "ru"
   required: true
 ```
@@ -90,19 +82,16 @@ translation:
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python -m pip install .
-$env:GOOGLE_TRANSLATE_API_KEY="ключ_из_Google_Cloud"
 .\.venv\Scripts\news-bot --config config.yaml --dry-run
 ```
 
-Предварительный просмотр ничего не отправляет и не изменяет историю. Если ключ
-перевода не задан, в этом режиме англоязычные материалы просто пропускаются.
+Предварительный просмотр ничего не отправляет и не изменяет историю.
 
 Для настоящей проверки задайте переменные только в текущем терминале:
 
 ```powershell
 $env:TELEGRAM_BOT_TOKEN="токен_из_BotFather"
 $env:TELEGRAM_CHAT_ID="@имя_канала"
-$env:GOOGLE_TRANSLATE_API_KEY="ключ_из_Google_Cloud"
 .\.venv\Scripts\news-bot --config config.yaml --check
 .\.venv\Scripts\news-bot --config config.yaml
 ```
@@ -110,8 +99,8 @@ $env:GOOGLE_TRANSLATE_API_KEY="ключ_из_Google_Cloud"
 ## 5. Запустить бесплатно на GitHub
 
 1. Создайте репозиторий GitHub и загрузите в него проект.
-2. В `Settings → Secrets and variables → Actions` добавьте три секрета:
-   `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` и `GOOGLE_TRANSLATE_API_KEY`.
+2. В `Settings → Secrets and variables → Actions` добавьте два секрета:
+   `TELEGRAM_BOT_TOKEN` и `TELEGRAM_CHAT_ID`.
 3. В `Settings → Actions → General → Workflow permissions` разрешите
    `Read and write permissions`. Это нужно только для сохранения
    `data/state.json`, чтобы бот не дублировал посты.
@@ -126,7 +115,7 @@ $env:GOOGLE_TRANSLATE_API_KEY="ключ_из_Google_Cloud"
 
 - Бот не переписывает материал нейросетью: он делает аккуратную выжимку из
   описания источника и переводит её. Это не добавляет выдуманных фактов.
-- Бесплатный перевод действует в пределах текущего лимита Google Cloud.
+- Бесплатный перевод зависит от доступности и лимитов публичного MyMemory API.
 - Для сайта без RSS понадобится небольшой отдельный парсер.
 - Перед автоматической публикацией проверьте правила источников и право
   использовать их изображения и текст. Ссылка и имя источника включены

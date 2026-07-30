@@ -16,7 +16,7 @@ from .text import (
     normalize_title,
     normalize_url,
 )
-from .translation import GoogleCloudTranslator, TranslationError
+from .translation import MyMemoryTranslator, TranslationError
 
 LOGGER = logging.getLogger(__name__)
 
@@ -98,24 +98,11 @@ def run(config: dict[str, Any], dry_run: bool = False, check_only: bool = False)
     ]
     translator = None
     if translated_sources:
-        translation_key = os.getenv("GOOGLE_TRANSLATE_API_KEY", "").strip()
-        if translation_key:
-            translator = GoogleCloudTranslator(
-                translation_key,
-                session,
-                runtime["request_timeout_seconds"],
-                translation_settings["target_language"],
-            )
-        elif translation_required and not dry_run:
-            raise RuntimeError(
-                "Для перевода Dahua, Tiandy и Shelly задайте "
-                "GOOGLE_TRANSLATE_API_KEY"
-            )
-        else:
-            LOGGER.warning(
-                "GOOGLE_TRANSLATE_API_KEY не задан: англоязычные материалы "
-                "будут пропущены."
-            )
+        translator = MyMemoryTranslator(
+            session,
+            runtime["request_timeout_seconds"],
+            translation_settings["target_language"],
+        )
 
     token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
     chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()

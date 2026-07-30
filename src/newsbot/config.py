@@ -13,7 +13,7 @@ class ConfigError(ValueError):
 DEFAULTS: dict[str, dict[str, Any]] = {
     "topic": {"include_any": [], "exclude": []},
     "translation": {
-        "provider": "google_cloud",
+        "provider": "mymemory",
         "target_language": "ru",
         "required": True,
     },
@@ -112,8 +112,8 @@ def load_config(path: str | Path) -> dict[str, Any]:
     )
 
     provider = str(config["translation"].get("provider", "")).strip().casefold()
-    if provider != "google_cloud":
-        raise ConfigError("translation.provider должен быть google_cloud")
+    if provider != "mymemory":
+        raise ConfigError("translation.provider должен быть mymemory")
     config["translation"]["provider"] = provider
     target_language = str(
         config["translation"].get("target_language", "")

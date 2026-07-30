@@ -199,7 +199,7 @@ topic:
     - "военная техника"
 
 translation:
-  provider: "google_cloud"
+  provider: "mymemory"
   target_language: "ru"
   # Не публиковать англоязычный оригинал, если перевод не удался.
   required: true
