@@ -50,6 +50,12 @@ class TelegramDiscoveryTests(unittest.TestCase):
             "result": [
                 {
                     "message": {
+                        "chat": {"id": -1000, "type": "supergroup"},
+                        "new_chat_member": {"is_bot": True},
+                    }
+                },
+                {
+                    "message": {
                         "text": "обычное сообщение",
                         "chat": {"id": -1001, "type": "supergroup"},
                     }

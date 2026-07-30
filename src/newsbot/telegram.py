@@ -46,6 +46,8 @@ def discover_command_chats(
     for update in payload.get("result", []):
         message = update.get("message") or {}
         text = str(message.get("text", "")).strip()
+        if not text:
+            continue
         command = text.split(maxsplit=1)[0].split("@", 1)[0].casefold()
         if command != "/id":
             continue
