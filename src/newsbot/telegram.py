@@ -3,6 +3,7 @@ from __future__ import annotations
 import logging
 from io import BytesIO
 from pathlib import PurePosixPath
+import json
 from urllib.parse import urlsplit
 
 import requests
@@ -13,6 +14,56 @@ MAX_IMAGE_BYTES = 10 * 1024 * 1024
 
 class TelegramError(RuntimeError):
     pass
+
+
+def discover_command_chats(
+    token: str,
+    session: requests.Session,
+    timeout: int,
+) -> list[dict]:
+    try:
+        response = session.post(
+            f"https://api.telegram.org/bot{token}/getUpdates",
+            data={
+                "limit": 100,
+                "timeout": 0,
+                "allowed_updates": json.dumps(["message"]),
+            },
+            timeout=timeout,
+        )
+    except requests.RequestException as exc:
+        raise TelegramError("Не удалось подключиться к Telegram") from exc
+
+    try:
+        payload = response.json()
+    except requests.JSONDecodeError as exc:
+        raise TelegramError(f"Telegram вернул HTTP {response.status_code}") from exc
+    if not response.ok or not payload.get("ok"):
+        description = payload.get("description", f"HTTP {response.status_code}")
+        raise TelegramError(f"Telegram: {description}")
+
+    chats: dict[str, dict] = {}
+    for update in payload.get("result", []):
+        message = update.get("message") or {}
+        text = str(message.get("text", "")).strip()
+        command = text.split(maxsplit=1)[0].split("@", 1)[0].casefold()
+        if command != "/id":
+            continue
+        chat = message.get("chat") or {}
+        chat_id = str(chat.get("id", "")).strip()
+        if not chat_id:
+            continue
+        chats[chat_id] = {
+            "id": chat_id,
+            "type": str(chat.get("type", "")),
+            "title": str(
+                chat.get("title")
+                or chat.get("username")
+                or chat.get("first_name")
+                or "без названия"
+            ),
+        }
+    return list(chats.values())
 
 
 class TelegramPublisher:

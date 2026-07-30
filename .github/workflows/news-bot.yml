@@ -13,6 +13,7 @@ on:
         type: choice
         options:
           - "check"
+          - "discover"
           - "publish"
 
 concurrency:
@@ -44,7 +45,9 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "check" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "discover" ]; then
+            news-bot --config config.yaml --discover-chats
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "check" ]; then
             news-bot --config config.yaml --check
           else
             news-bot --config config.yaml

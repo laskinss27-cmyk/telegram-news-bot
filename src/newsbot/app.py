@@ -9,7 +9,7 @@ import requests
 
 from .feeds import enrich_from_article, read_source
 from .state import State
-from .telegram import TelegramPublisher
+from .telegram import TelegramPublisher, discover_command_chats
 from .text import (
     article_matches,
     build_telegram_html,
@@ -19,6 +19,32 @@ from .text import (
 from .translation import MyMemoryTranslator, TranslationError
 
 LOGGER = logging.getLogger(__name__)
+
+
+def discover_moderation_chats(config: dict[str, Any]) -> int:
+    token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
+    if not token:
+        raise RuntimeError("Для поиска чата задайте TELEGRAM_BOT_TOKEN")
+
+    runtime = config["runtime"]
+    session = requests.Session()
+    session.headers.update({"User-Agent": runtime["user_agent"]})
+    chats = discover_command_chats(
+        token,
+        session,
+        runtime["request_timeout_seconds"],
+    )
+    if not chats:
+        raise RuntimeError(
+            "Команда /id не найдена. Отправьте /id в нужную группу и повторите."
+        )
+
+    for chat in chats:
+        print(
+            f"MODERATION_CHAT_ID={chat['id']} | "
+            f"type={chat['type']} | title={chat['title']}"
+        )
+    return 0
 
 
 def collect_candidates(
