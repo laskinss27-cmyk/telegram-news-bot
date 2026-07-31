@@ -18,6 +18,43 @@ function jsonResponse(payload, status = 200) {
   });
 }
 
+function setupPage(message = "") {
+  const notice = message
+    ? `<p role="status">${message}</p>`
+    : "<p>Введите секрет webhook, сохранённый в настройках Worker.</p>";
+  return new Response(
+    `<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Подключение SHomeNews</title>
+  <style>
+    body { font: 16px system-ui, sans-serif; max-width: 560px; margin: 64px auto; padding: 0 20px; }
+    input, button { box-sizing: border-box; width: 100%; padding: 12px; margin-top: 12px; }
+    button { cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Подключение Telegram</h1>
+  ${notice}
+  <form method="post" action="/setup">
+    <label>Секрет webhook
+      <input type="password" name="setup_key" required autocomplete="off">
+    </label>
+    <button type="submit">Подключить Telegram</button>
+  </form>
+</body>
+</html>`,
+    {
+      headers: {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-store",
+      },
+    },
+  );
+}
+
 export function parseCallbackData(value) {
   if (typeof value !== "string") {
     return null;
@@ -239,14 +276,36 @@ async function handleTelegramUpdate(env, update) {
 
 export default {
   async fetch(request, env, ctx) {
-    if (request.method === "GET") {
+    const url = new URL(request.url);
+
+    if (request.method === "GET" && url.pathname === "/setup") {
+      return setupPage();
+    }
+    if (request.method === "POST" && url.pathname === "/setup") {
+      const missing = missingEnvironmentVariables(env);
+      if (missing.length) {
+        return setupPage(`Не заполнены настройки: ${missing.join(", ")}`);
+      }
+      const form = await request.formData().catch(() => null);
+      if (form?.get("setup_key") !== env.TELEGRAM_WEBHOOK_SECRET) {
+        return setupPage("Неверный секрет webhook");
+      }
+      await telegram(env, "setWebhook", {
+        url: `${url.origin}/telegram`,
+        secret_token: env.TELEGRAM_WEBHOOK_SECRET,
+        allowed_updates: ["callback_query"],
+        drop_pending_updates: true,
+      });
+      return setupPage("✅ Telegram подключён. Теперь кнопки работают сразу.");
+    }
+    if (request.method === "GET" && url.pathname === "/") {
       return jsonResponse({
         ok: true,
         service: "SHomeNews Telegram moderation",
       });
     }
-    if (request.method !== "POST") {
-      return jsonResponse({ ok: false, error: "Method not allowed" }, 405);
+    if (request.method !== "POST" || url.pathname !== "/telegram") {
+      return jsonResponse({ ok: false, error: "Not found" }, 404);
     }
 
     const missing = missingEnvironmentVariables(env);

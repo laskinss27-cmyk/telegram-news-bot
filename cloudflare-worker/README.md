@@ -22,5 +22,9 @@ Worker принимает от Telegram только нажатия кнопок
 - `TELEGRAM_WEBHOOK_SECRET`.
 
 Затем Telegram webhook направляется на адрес созданного Worker с передачей
-того же `TELEGRAM_WEBHOOK_SECRET`. Пока webhook не подключён, сбор новостей
-на GitHub продолжает работать, но новые кнопки не обрабатываются.
+того же `TELEGRAM_WEBHOOK_SECRET`. Для этого нужно открыть страницу
+`https://shome-news-moderation.<ваш-поддомен>.workers.dev/setup`, ввести
+секрет webhook и нажать «Подключить Telegram».
+
+Пока webhook не подключён, сбор новостей на GitHub продолжает работать,
+но новые кнопки не обрабатываются.
