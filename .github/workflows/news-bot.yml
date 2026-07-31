@@ -4,8 +4,6 @@ on:
   schedule:
     # Сбор новых материалов раз в час. GitHub использует UTC.
     - cron: "17 * * * *"
-    # Обработка кнопок в предложке. GitHub может запускать с небольшой задержкой.
-    - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -17,7 +15,6 @@ on:
           - "check"
           - "discover"
           - "collect"
-          - "process"
 
 concurrency:
   group: telegram-news-moderation
@@ -53,16 +50,12 @@ jobs:
             news-bot --config config.yaml --discover-chats
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "check" ]; then
             news-bot --config config.yaml --check
-          elif [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "process" ]; then
-            news-bot --config config.yaml --process-moderation
-          elif [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "*/5 * * * *" ]; then
-            news-bot --config config.yaml --process-moderation
           else
             news-bot --config config.yaml --queue
           fi
 
       - name: Save bot state
-        if: always() && (github.event_name == 'schedule' || inputs.mode == 'collect' || inputs.mode == 'process')
+        if: always() && (github.event_name == 'schedule' || inputs.mode == 'collect')
         run: |
           if git diff --quiet -- data/state.json data/moderation.json; then
             echo "No state changes"

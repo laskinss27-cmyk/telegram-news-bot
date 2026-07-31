@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "shome-news-moderation",
+  "main": "cloudflare-worker/src/index.js",
+  "compatibility_date": "2026-07-31",
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  }
+}

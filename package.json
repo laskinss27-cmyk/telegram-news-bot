@@ -1,0 +1,8 @@
+{
+  "name": "shome-news-moderation-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test cloudflare-worker/test/*.test.js"
+  }
+}
