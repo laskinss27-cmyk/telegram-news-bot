@@ -13,6 +13,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADEGprtVx4i9X_fv17chaq18RGAQwBAALkF2sbdPVhS2Atni8lrAISAQADAgADdwADPQQ",
       "review_message_id": 16,
       "created_at": "2026-07-30T20:34:36.598442+00:00"
+    },
+    {
+      "id": "a603b981f525a23e",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "LLM смотрит на мой сад: как ИИ-зрение решает, звать ли меня накрыть мебель перед дождём",
+      "url": "https://habr.com/ru/articles/1065082",
+      "text": "<b>LLM смотрит на мой сад: как ИИ-зрение решает, звать ли меня накрыть мебель перед дождём</b>\n\nLLM анализирует картинку с камеры и перед дождём решает, накрыта ли садовая мебель - если нет, шлёт в Telegram фото сада, радар и кнопки «Накрыл» / «Отложить». Всё на голом Home Assistant, без своего кода, регистрации и смс. Собрал за меня Claude Code, а я разбираю архитектуру, YAML и грабли. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1065082\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/e55/785/0e3/e557850e374659684983cc5508c13f30.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADEWpsSvYajJ1Jhaezf9K0MdteKSf9AAKYFmsb9lxgS6jLwPuq01okAQADAgADdwADPQQ",
+      "review_message_id": 17,
+      "created_at": "2026-07-31T07:12:54.361458+00:00"
     }
   ]
 }
