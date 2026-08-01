@@ -26,6 +26,18 @@
       "review_message_id": 17,
       "created_at": "2026-07-31T07:12:54.361458+00:00",
       "decided_at": "2026-07-31T07:43:29.712258+00:00"
+    },
+    {
+      "id": "494061ee6933f367",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Alpha Connect: Подключаем Альфу к Home Assistant с помощью своей интеграции",
+      "url": "https://habr.com/ru/articles/1060736",
+      "text": "<b>Alpha Connect: Подключаем Альфу к Home Assistant с помощью своей интеграции</b>\n\nПривет, Хабр! Время от времени я возвращаюсь к своему PET-проекту приватного и независимого от сторонних сервисов голосового ассистента под кодовым названием «Альфа», который разработан для голосового взаимодействия с умным домом на базе Home Assistant. Простыми словами — это приватная умная колонка для управления умным домом. В этот раз я решил заняться вопросом «нормального» взаимодействия «Альфы» и Home Assistant. А что из этого вышло — читайте далее. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1060736\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/321/4af/910/3214af9108102c5669e364c1ccc8c748.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADFGpt-i1tMlj-d0KwvxpndpY3xD5WAALZGGsb0eZxS6RLyF3oRCa7AQADAgADdwADPQQ",
+      "review_message_id": 20,
+      "created_at": "2026-08-01T13:52:45.463859+00:00"
     }
   ]
 }
