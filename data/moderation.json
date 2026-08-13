@@ -110,6 +110,30 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADH2p8FZn0qvopnCSEekNQXeQiFmY2AAL-GmsblrvgS6OwH2fEfj-CAQADAgADdwADPQQ",
       "review_message_id": 31,
       "created_at": "2026-08-12T06:41:30.136489+00:00"
+    },
+    {
+      "id": "2f646c4fb6f0baa2",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Умный дом, который начался не с лампочек, а с вентиляции",
+      "url": "https://habr.com/ru/companies/wirenboard/articles/1069846",
+      "text": "<b>Умный дом, который начался не с лампочек, а с вентиляции</b>\n\nВсе началось не с желания построить «умный дом», а с обычной вентиляции. После переезда в новую квартиру я хотел решить одну конкретную задачу — обеспечить нормальный воздухообмен и контроль качества воздуха. Но приточная установка с RS-485 быстро потянула за собой остальное: контроль CO₂, защиту от протечек, управление светом и шторами, Алису, Zigbee и планы на Home Assistant.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/companies/wirenboard/articles/1069846\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/a83/02f/fdc/a8302ffdcd5e3d911d4d9fb4be688efc.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADIWp9g29B57NTxOkzAgw6J0NexaOFAAKSF2sblrvoSxp9C1OJ6MFoAQADAgADeQADPQQ",
+      "review_message_id": 33,
+      "created_at": "2026-08-13T08:42:24.107050+00:00"
+    },
+    {
+      "id": "2a327d4523c392f6",
+      "status": "pending",
+      "source": "Secuteck — новости систем безопасности",
+      "title": "НВП \"Болид\" представило решения пожарной автоматики и видео для взрывоопасных объектов",
+      "url": "https://www.secuteck.ru/news/nvp-bolid-predstavilo-resheniya-pozharnoy-avtomatiki-i-video-dlya-vzryvoopasnykh-obyektov",
+      "text": "<b>НВП &quot;Болид&quot; представило решения пожарной автоматики и видео для взрывоопасных объектов</b>\n\nНа конференции &quot; Взрывозащита технологического оборудования: защита опасного производственного объекта &quot; Александра Симонова, АО НВП &quot;Болид&quot;, представила решения для адресной пожарной автоматики на взрывоопасных объектах и показала, как видеонаблюдение повышает эффективность СПА. Материалы конференции →\n\nИсточник: Secuteck — новости систем безопасности\n<a href=\"https://www.secuteck.ru/news/nvp-bolid-predstavilo-resheniya-pozharnoy-avtomatiki-i-video-dlya-vzryvoopasnykh-obyektov\">Читать полностью</a>",
+      "image_url": "https://www.secuteck.ru/hubfs/Digital/SS/SS_ADAPT/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0%20%D0%A1%D0%B8%D0%BC%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%2c%20%D0%91%D0%BE%D0%BB%D0%B8%D0%B4%20g%20(1).png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADImp9g3GvI21u7xVPvAt2D8xxozAHAAKTF2sblrvoS-nE8jl04xmFAQADAgADdwADPQQ",
+      "review_message_id": 34,
+      "created_at": "2026-08-13T08:42:25.700769+00:00"
     }
   ]
 }
