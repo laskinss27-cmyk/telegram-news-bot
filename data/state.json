@@ -78,6 +78,12 @@
       "url": "https://www.secuteck.ru/news/nvp-bolid-predstavilo-resheniya-pozharnoy-avtomatiki-i-video-dlya-vzryvoopasnykh-obyektov",
       "title": "НВП \"Болид\" представило решения пожарной автоматики и видео для взрывоопасных объектов",
       "posted_at": "2026-08-13T08:42:25.701348+00:00"
+    },
+    {
+      "key": "5c798e290efe355ded493afce6027c9f69640496ea1ce3c760c3e2868e065d95",
+      "url": "https://habr.com/ru/articles/1070708",
+      "title": "Как я дал старому планшету глаза и получил панель для Home Assistant",
+      "posted_at": "2026-08-15T09:37:49.254317+00:00"
     }
   ]
 }

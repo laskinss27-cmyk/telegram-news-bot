@@ -134,6 +134,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADImp9g3GvI21u7xVPvAt2D8xxozAHAAKTF2sblrvoS-nE8jl04xmFAQADAgADdwADPQQ",
       "review_message_id": 34,
       "created_at": "2026-08-13T08:42:25.700769+00:00"
+    },
+    {
+      "id": "5c798e290efe355d",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Как я дал старому планшету глаза и получил панель для Home Assistant",
+      "url": "https://habr.com/ru/articles/1070708",
+      "text": "<b>Как я дал старому планшету глаза и получил панель для Home Assistant</b>\n\nДавно хотелось поставить где-то на видном месте планшет-панель для Home Assistant — сценарии, термостат, камеры, всё в одном месте, без необходимости каждый раз доставать телефон. Готовые панели стоят как отдельный гаджет, а мысль «взять б/у планшет и допилить под себя» выглядела куда веселее. На Авито нашлось объявление на два старых планшета за копейки — продавец явно расчищал полку.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1070708\">Читать полностью</a>",
+      "image_url": "https://habr.com/share/publication/1070708/dd5f69fe404dfa9a936684c64f8f7d64/",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADJGqAM20MHdkYoiQlOSttSVh1jcLaAAJzHGsbnesISBUWT3U0hciRAQADAgADeQADPQQ",
+      "review_message_id": 36,
+      "created_at": "2026-08-15T09:37:49.253611+00:00"
     }
   ]
 }
