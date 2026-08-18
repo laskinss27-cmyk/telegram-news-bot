@@ -158,6 +158,30 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADJWqC8pRP2wY4MLGuYVd_9Y68NPsRAALeGGsbecgZSIPCpmBhKlllAQADAgADeAADPQQ",
       "review_message_id": 37,
       "created_at": "2026-08-17T11:37:56.748506+00:00"
+    },
+    {
+      "id": "af63e78b83b97926",
+      "status": "pending",
+      "source": "Secuteck — новости систем безопасности",
+      "title": "ТБ Форум 2027 объединит ИТ, ИБ и физическую безопасность вокруг задач крупных предприятий",
+      "url": "https://www.secuteck.ru/news/tb-forum-2027-obyedinit-it-ib-i-fizicheskuyu-bezopasnost-vokrug-zadach-krupnykh-predpriyatiy",
+      "text": "<b>ТБ Форум 2027 объединит ИТ, ИБ и физическую безопасность вокруг задач крупных предприятий</b>\n\nНа крупном предприятии ИТ, ИБ и физическая безопасность связаны одной инфраструктурой: СКУД, видеонаблюдение и инженерные системы работают через сети, серверы и ПО, а ИТ-решения должны учитывать требования к защите информации, объектам и эксплуатации. ТБ Форум 2027 соберет CIO, CISO, директоров по безопасности, технических руководителей, регуляторов, разработчиков и интеграторов вокруг общих задач крупных предприятий. www.tbforum.ru\n\nИсточник: Secuteck — новости систем безопасности\n<a href=\"https://www.secuteck.ru/news/tb-forum-2027-obyedinit-it-ib-i-fizicheskuyu-bezopasnost-vokrug-zadach-krupnykh-predpriyatiy\">Читать полностью</a>",
+      "image_url": "https://www.secuteck.ru/hubfs/TBF/2026/FOTO_lending%20page_exprom/%D0%A2%D0%91%D0%A42026-%D0%BA17.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADKGqEA60-_EJanaXmvuDP_U5pyhz1AAIjGmsbvO8hSN4fo_jWm8z6AQADAgADdwADPQQ",
+      "review_message_id": 40,
+      "created_at": "2026-08-18T07:03:09.306131+00:00"
+    },
+    {
+      "id": "76a38a91de706e86",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Софт для интегратора: сметы, проектирование щитов, настройка оборудования и Home Assistant",
+      "url": "https://habr.com/ru/companies/wirenboard/articles/1071426",
+      "text": "<b>Софт для интегратора: сметы, проектирование щитов, настройка оборудования и Home Assistant</b>\n\nПять–десять смет в месяц, база на тысячу позиций в Excel и часы работы, которые нередко уходят впустую, если проект не доходит до реализации. В какой-то момент я решил, что проще написать свой инструмент, чем продолжать поддерживать все это вручную. Сначала он умел только считать сметы. Потом появились проектирование щитов, кабельные карты, автоматическая настройка оборудования и Home Assistant, а также инструменты для пусконаладки.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/companies/wirenboard/articles/1071426\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/cba/e52/160/cbae52160194ebf5a62b96620f8c04cc.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADKWqEA68CFQhWF1FhybaBSDLajIUvAAIkGmsbvO8hSGX67zlL9TxPAQADAgADeQADPQQ",
+      "review_message_id": 41,
+      "created_at": "2026-08-18T07:03:11.452673+00:00"
     }
   ]
 }
