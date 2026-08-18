@@ -182,6 +182,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADKWqEA68CFQhWF1FhybaBSDLajIUvAAIkGmsbvO8hSGX67zlL9TxPAQADAgADeQADPQQ",
       "review_message_id": 41,
       "created_at": "2026-08-18T07:03:11.452673+00:00"
+    },
+    {
+      "id": "037947f97cc57efe",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Мониторинг электричества в доме с помощью OpenWrt + Modbus TCP",
+      "url": "https://habr.com/ru/articles/1071544",
+      "text": "<b>Мониторинг электричества в доме с помощью OpenWrt + Modbus TCP</b>\n\nУже второй сезон я строю дом. На этапе подведения коммуникаций появилась идея сразу проложить оптику от провайдера, чтобы потом не курочить стены. Сказано — сделано. Подключив пустую коробку к Интернету, я сразу задумался о том, что это отличный испытательный полигон для разных датчиков и подобного оборудования умного дома. Пока там никто не живёт, отвал или клюки датчиков никаких неудобств не вызовет, а скорее даст полезную информацию и опыт внедрения.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1071544\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/159/ea2/b47/159ea2b470361b0dea134cdb493e8e03.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADKmqEZGIAAQ0sJitSUfxlG3r4clMHDwACqxxrG7zvIUjm7LYn2WW5jAEAAwIAA3gAAz0E",
+      "review_message_id": 42,
+      "created_at": "2026-08-18T13:55:46.836944+00:00"
     }
   ]
 }

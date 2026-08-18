@@ -102,6 +102,12 @@
       "url": "https://habr.com/ru/companies/wirenboard/articles/1071426",
       "title": "Софт для интегратора: сметы, проектирование щитов, настройка оборудования и Home Assistant",
       "posted_at": "2026-08-18T07:03:11.453322+00:00"
+    },
+    {
+      "key": "037947f97cc57efee5bbd482c2962153a27fbf7e777995c55fdfa79edda1ad6b",
+      "url": "https://habr.com/ru/articles/1071544",
+      "title": "Мониторинг электричества в доме с помощью OpenWrt + Modbus TCP",
+      "posted_at": "2026-08-18T13:55:46.837676+00:00"
     }
   ]
 }
