@@ -206,6 +206,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADK2qFbviovB3TAa8LSZTpoZF7XEvSAAIuGWsbvO8pSPlP0LLunCT5AQADAgADdwADPQQ",
       "review_message_id": 43,
       "created_at": "2026-08-19T08:53:13.301297+00:00"
+    },
+    {
+      "id": "942d7e16b61cc4bb",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "ZBFun: архитектура для ZigBee без обязательного облака на Python",
+      "url": "https://habr.com/ru/articles/1072050",
+      "text": "<b>ZBFun: архитектура для ZigBee без обязательного облака на Python</b>\n\nМеня зовут ZolAnd, я - независимый инженер-разработчик embedded-систем в основном для дома и сельской усадьбы. В какой-то момент мне захотелось собрать под одной крышей разношёрстный парк ZigBee-устройств от разных производителей, работать с ним локально, без обязательной привязки к облаку, и при этом иметь возможность не только интегрировать чужие устройства, но и проектировать свои. Так появился проект ZBFun.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1072050\">Читать полностью</a>",
+      "image_url": "https://habr.com/share/publication/1072050/6b63ea202c53a9c06f7078bcc7422e58/",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADLGqFlYbTUT6yuvtjv5LVc46tK5WXAAINGmsbvO8pSNimB7FyV-_WAQADAgADeQADPQQ",
+      "review_message_id": 44,
+      "created_at": "2026-08-19T11:37:42.875693+00:00"
     }
   ]
 }
