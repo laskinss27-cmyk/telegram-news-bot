@@ -194,6 +194,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADKmqEZGIAAQ0sJitSUfxlG3r4clMHDwACqxxrG7zvIUjm7LYn2WW5jAEAAwIAA3gAAz0E",
       "review_message_id": 42,
       "created_at": "2026-08-18T13:55:46.836944+00:00"
+    },
+    {
+      "id": "0cc14950673eab91",
+      "status": "pending",
+      "source": "Secuteck — новости систем безопасности",
+      "title": "TRASSIR объединил видеонаблюдение и контроль доступа на одном видеорегистраторе",
+      "url": "https://www.secuteck.ru/news/trassir-obedinil-videonablyudenie-i-kontrol-dostupa-na-odnom-videoregistratore",
+      "text": "<b>TRASSIR объединил видеонаблюдение и контроль доступа на одном видеорегистраторе</b>\n\nКомпания TRASSIR выпустила два готовых комплекта для организации проходной: &quot;Умная проходная 16&quot; и &quot;Умная проходная 32&quot;. Видеонаблюдение и система контроля доступа в них работают на одном видеорегистраторе, отдельный сервер под СКУД заказчику не требуется. Нейросетевой модуль сопоставляет события СКУД с видеопотоком и выявляет четыре типа нарушений на точке прохода.\n\nИсточник: Secuteck — новости систем безопасности\n<a href=\"https://www.secuteck.ru/news/trassir-obedinil-videonablyudenie-i-kontrol-dostupa-na-odnom-videoregistratore\">Читать полностью</a>",
+      "image_url": "https://www.secuteck.ru/hubfs/SecuteckRu/News/%D0%916%201.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADK2qFbviovB3TAa8LSZTpoZF7XEvSAAIuGWsbvO8pSPlP0LLunCT5AQADAgADdwADPQQ",
+      "review_message_id": 43,
+      "created_at": "2026-08-19T08:53:13.301297+00:00"
     }
   ]
 }

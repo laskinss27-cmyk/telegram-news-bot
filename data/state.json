@@ -108,6 +108,12 @@
       "url": "https://habr.com/ru/articles/1071544",
       "title": "Мониторинг электричества в доме с помощью OpenWrt + Modbus TCP",
       "posted_at": "2026-08-18T13:55:46.837676+00:00"
+    },
+    {
+      "key": "0cc14950673eab9183b6a97d8e0d7488f290f88af9f60523c540598c5af1da88",
+      "url": "https://www.secuteck.ru/news/trassir-obedinil-videonablyudenie-i-kontrol-dostupa-na-odnom-videoregistratore",
+      "title": "TRASSIR объединил видеонаблюдение и контроль доступа на одном видеорегистраторе",
+      "posted_at": "2026-08-19T08:53:13.302035+00:00"
     }
   ]
 }
