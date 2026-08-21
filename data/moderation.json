@@ -218,6 +218,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADLGqFlYbTUT6yuvtjv5LVc46tK5WXAAINGmsbvO8pSNimB7FyV-_WAQADAgADeQADPQQ",
       "review_message_id": 44,
       "created_at": "2026-08-19T11:37:42.875693+00:00"
+    },
+    {
+      "id": "c7be380e68442de0",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Умный дом на «паузе»: почему цифровые системы в новостройках умирают через три года",
+      "url": "https://habr.com/ru/articles/1072760",
+      "text": "<b>Умный дом на «паузе»: почему цифровые системы в новостройках умирают через три года</b>\n\nУмный дом на «паузе»: почему цифровые системы в новостройках умирают через три года Современные жилые комплексы сложно представить без умных цифровых решений. Но по состоянию на 2026 год многие цифровые системы в новостройках перестают полноценно работать уже через несколько лет после ввода дома в эксплуатацию. Часть функций отключается, отдельные сервисы становятся недоступны, данные перестают обновляться.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1072760\">Читать полностью</a>",
+      "image_url": "https://habr.com/share/publication/1072760/4f57add390614ad8ac70f7b0a6e82053/",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADLWqIcvuxwGsGFgturZCYrUjOPzfMAALqJGsbQctISCCdvARTMJfIAQADAgADeQADPQQ",
+      "review_message_id": 45,
+      "created_at": "2026-08-21T15:47:07.212098+00:00"
     }
   ]
 }
