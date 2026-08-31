@@ -230,6 +230,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADLWqIcvuxwGsGFgturZCYrUjOPzfMAALqJGsbQctISCCdvARTMJfIAQADAgADeQADPQQ",
       "review_message_id": 45,
       "created_at": "2026-08-21T15:47:07.212098+00:00"
+    },
+    {
+      "id": "2227b48bfa5802f6",
+      "status": "pending",
+      "source": "Secuteck — новости систем безопасности",
+      "title": "Скрипт TRASSIR проверяет, открывают ли в магазине свободные кассы в час пик",
+      "url": "https://www.secuteck.ru/news/skript-trassir-proveryaet-otkryvayut-li-v-magazine-svobodnye-kassy-v-chas-pik",
+      "text": "<b>Скрипт TRASSIR проверяет, открывают ли в магазине свободные кассы в час пик</b>\n\nTRASSIR выпустила скрипт Advanced Queue Control. Он связывает два модуля интеллектуальной видеоаналитики TRASSIR: детектор очередей Queue Detector и систему контроля кассовых операций ActivePOS. Детектор очередей считает людей в зоне, но не знает состояния касс. Скрипт добавляет эти данные и отвечает на вопрос, который до сих пор приходилось проверять вручную: есть ли в момент пиковой нагрузки свободные закрытые кассы и открывает ли их персонал.\n\nИсточник: Secuteck — новости систем безопасности\n<a href=\"https://www.secuteck.ru/news/skript-trassir-proveryaet-otkryvayut-li-v-magazine-svobodnye-kassy-v-chas-pik\">Читать полностью</a>",
+      "image_url": "https://www.secuteck.ru/hubfs/SecuteckRu/News/Advanced%20Queue%20Control%201024%D1%85600.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADNGqVEWOlKbEmfLUw1XHk0mzDuZ7JAALIHGsbqtipSL-EcjBWOIewAQADAgADeQADPQQ",
+      "review_message_id": 52,
+      "created_at": "2026-08-31T05:30:12.078572+00:00"
     }
   ]
 }
