@@ -242,6 +242,30 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADNGqVEWOlKbEmfLUw1XHk0mzDuZ7JAALIHGsbqtipSL-EcjBWOIewAQADAgADeQADPQQ",
       "review_message_id": 52,
       "created_at": "2026-08-31T05:30:12.078572+00:00"
+    },
+    {
+      "id": "8aab240fd1009271",
+      "status": "pending",
+      "source": "Secuteck — новости систем безопасности",
+      "title": "Объединение сенсорных систем – новый рубеж в сфере обороны",
+      "url": "https://www.secuteck.ru/news/obedinenie-sensornyh-sistem-novyj-rubezh-v-sfere-oborony",
+      "text": "<b>Объединение сенсорных систем – новый рубеж в сфере обороны</b>\n\nВ борьбе с беспилотниками видеонаблюдение с искусственным интеллектом присоединяется к радиочастотному излучению Компания VisionWave решает существенную проблему современной противовоздушной обороны – проблему ложных срабатываний, приобретая платформу видеоаналитики xClibre AI для интеграции визуального восприятия в свои оборонные системы.\n\nИсточник: Secuteck — новости систем безопасности\n<a href=\"https://www.secuteck.ru/news/obedinenie-sensornyh-sistem-novyj-rubezh-v-sfere-oborony\">Читать полностью</a>",
+      "image_url": "https://www.secuteck.ru/hubfs/SecuteckRu/News/Futuristic%20Military%20Command%20Center%20with%20AI%20Radar%20Integration.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADNmqVhSVEStOirNwpk9n6c6QLMFy4AAK9H2sbqtixSC9NiN6DvxkmAQADAgADdwADPQQ",
+      "review_message_id": 54,
+      "created_at": "2026-08-31T13:44:05.325874+00:00"
+    },
+    {
+      "id": "ba84bb5625ab5d53",
+      "status": "pending",
+      "source": "Secuteck — новости систем безопасности",
+      "title": "Приглашаем на осенние бесплатные обучающие семинары и вебинары по продукции Parsec",
+      "url": "https://www.secuteck.ru/news/priglashaem-na-osennie-besplatnye-obuchayushchie-seminary-i-vebinary-po-produkcii-parsec",
+      "text": "<b>Приглашаем на осенние бесплатные обучающие семинары и вебинары по продукции Parsec</b>\n\nДля тех, кто желает пройти традиционное обучение по хорошо знакомой многим СКУД ParsecNET 3, в четверг 3 сентября в 10.00 в Учебном Центре Parsec в Москве пройдет однодневный очный семинар для инженеров по СКУД ParsecNET 3. Семинар включает как изучение возможностей системы и ее лицензирования, так и практику на настройке сервера с подключением разных моделей контроллеров.\n\nИсточник: Secuteck — новости систем безопасности\n<a href=\"https://www.secuteck.ru/news/priglashaem-na-osennie-besplatnye-obuchayushchie-seminary-i-vebinary-po-produkcii-parsec\">Читать полностью</a>",
+      "image_url": "https://www.secuteck.ru/hubfs/SecuteckRu/News/magnific_upscale_nVdl9k9YQD%20(1).jpeg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADN2qVhSaclRnYiUoqbhsplrgnYl-mAAK-H2sbqtixSOE-GhuNB0fCAQADAgADeQADPQQ",
+      "review_message_id": 55,
+      "created_at": "2026-08-31T13:44:06.873927+00:00"
     }
   ]
 }
