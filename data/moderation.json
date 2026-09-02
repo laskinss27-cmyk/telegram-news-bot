@@ -278,6 +278,30 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADOWqX7fR0L9QZZLSsQ761IhZRrrc8AAJUHWsbAtDBSBXLlae8JChpAQADAgADdwADPQQ",
       "review_message_id": 57,
       "created_at": "2026-09-02T09:35:49.150264+00:00"
+    },
+    {
+      "id": "0ffbaff54e5bcf60",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Отучаем IoT от облака",
+      "url": "https://habr.com/ru/companies/dsec/articles/1077806",
+      "text": "<b>Отучаем IoT от облака</b>\n\nЯ уже несколько лет методично выбирал устройства для умного дома, работающие по протоколу Zigbee, чтобы не зависеть от облака вендора. Однако прошлой осенью в моей жизни появилась кошка. В силу ограниченности вариантов, пришлось обзавестись рядом устройств, работающих только по Wi‑Fi и только с приложением вендора. Под катом расскажу, как я преодолел это недоразумение. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/companies/dsec/articles/1077806\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/e1a/567/d77/e1a567d777687eb2a29405c13e582075.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADOmqYbcYIyWEzqYKklMjqE-bNR0BbAALaIGsbAtDJSCD-qt8gPJ2OAQADAgADeAADPQQ",
+      "review_message_id": 58,
+      "created_at": "2026-09-02T18:41:11.153541+00:00"
+    },
+    {
+      "id": "6bb987078cf768bd",
+      "status": "pending",
+      "source": "Shelly — официальный media kit",
+      "title": "Обновление материалов для настенного дисплея | Shelly на IFA 2026 | Shelly Europe",
+      "url": "https://www.shelly.com/blogs/media-kit/matter-update-wall-display-ifa-2026",
+      "text": "<b>Обновление материалов для настенного дисплея | Shelly на IFA 2026 | Shelly Europe</b>\n\nВаша панель - это концентратор. Настенный дисплей - это полнофункциональный контроллер Matter: он допускает и управляет устройствами Matter от любого производителя, без моста, без отдельного концентратора и без второго приложения. И наоборот. Впервые для настенной панели — дисплей также является устройством Matter, поэтому Apple Home, Google Home, Alexa, SmartThings или Home Assistant могут добавить свои реле, диммер и термостат. Бесплатно, по воздуху, на оборудовании, которое у вас уже есть.\n\nИсточник: Shelly — официальный media kit\n<a href=\"https://www.shelly.com/blogs/media-kit/matter-update-wall-display-ifa-2026\">Читать полностью</a>",
+      "image_url": "https://www.shelly.com/cdn/shop/articles/Shelly_Matter_Update_Wall_Display_IFA2026_84899fa3-43d3-4d1d-b449-0eea8324c9b9.png?v=1788373294",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADO2qYbcu4sEIkb0wyYbQqREzKo0kqAALbIGsbAtDJSCgBzUMxcwvYAQADAgADdwADPQQ",
+      "review_message_id": 59,
+      "created_at": "2026-09-02T18:41:16.182633+00:00"
     }
   ]
 }
