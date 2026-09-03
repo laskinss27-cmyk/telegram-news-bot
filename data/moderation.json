@@ -302,6 +302,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADO2qYbcu4sEIkb0wyYbQqREzKo0kqAALbIGsbAtDJSCgBzUMxcwvYAQADAgADdwADPQQ",
       "review_message_id": 59,
       "created_at": "2026-09-02T18:41:16.182633+00:00"
+    },
+    {
+      "id": "310c8cac1c75222a",
+      "status": "pending",
+      "source": "Ferra — технологии",
+      "title": "ИИ начнет искать разыскиваемых людей по камерам в Республике Тыва",
+      "url": "https://www.ferra.ru/news/v-rossii/ii-nachnet-iskat-razyskivaemykh-lyudei-po-kameram-v-respublike-tyva-03-09-2026.htm",
+      "text": "<b>ИИ начнет искать разыскиваемых людей по камерам в Республике Тыва</b>\n\nВ Республике Тыва запустили систему видеоаналитики на основе искусственного интеллекта (ИИ) для повышения безопасности на улицах, в парках и скверах. Нейросеть FindFace Multi от компании NtechLab, технологического партнера Ростеха, интегрирована в аппаратно-программный комплекс «Безопасный город» в Кызыле.\n\nИсточник: Ferra — технологии\n<a href=\"https://www.ferra.ru/news/v-rossii/ii-nachnet-iskat-razyskivaemykh-lyudei-po-kameram-v-respublike-tyva-03-09-2026.htm\">Читать полностью</a>",
+      "image_url": "https://www.ferra.ru/imgs/2026/09/03/14/7002237/d18994e6d9839694dc7615ad67466e39a3acc4bf.jpeg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADPGqZvl5ONpkNEcLBjvfWPgABFBZ88gACVCNrGwLQ0Uh38STFr-jyVwEAAwIAA3kAAz0E",
+      "review_message_id": 60,
+      "created_at": "2026-09-03T18:37:19.141365+00:00"
     }
   ]
 }
