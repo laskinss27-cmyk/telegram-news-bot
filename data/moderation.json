@@ -314,6 +314,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADPGqZvl5ONpkNEcLBjvfWPgABFBZ88gACVCNrGwLQ0Uh38STFr-jyVwEAAwIAA3kAAz0E",
       "review_message_id": 60,
       "created_at": "2026-09-03T18:37:19.141365+00:00"
+    },
+    {
+      "id": "fca5f80ae9ad24be",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Open Source IP камера на основе Raspberry Pi",
+      "url": "https://habr.com/ru/articles/1077980",
+      "text": "<b>Open Source IP камера на основе Raspberry Pi</b>\n\nС современным уровнем развития технологий многие вещи, которые раньше казались фантастическими, порой можно реализовать буквально за один вечер. В данной статье я расскажу как можно легко и непринужденно создать свою собственную PoE IP камеру с возможностью удаленного доступа через браузер. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1077980\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/7af/3e5/2be/7af3e52be7703ec3a1ab4a1f1ce1765e.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADPmqa05-A9G39tQUPR9l3gfnVoXiLAALGHmsblEnZSCir1nFf3fGZAQADAgADdwADPQQ",
+      "review_message_id": 62,
+      "created_at": "2026-09-04T14:20:16.134456+00:00"
     }
   ]
 }

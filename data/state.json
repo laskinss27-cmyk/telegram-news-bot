@@ -168,6 +168,12 @@
       "url": "https://www.ferra.ru/news/v-rossii/ii-nachnet-iskat-razyskivaemykh-lyudei-po-kameram-v-respublike-tyva-03-09-2026.htm",
       "title": "ИИ начнет искать разыскиваемых людей по камерам в Республике Тыва",
       "posted_at": "2026-09-03T18:37:19.142335+00:00"
+    },
+    {
+      "key": "fca5f80ae9ad24beb3c281c2bb0d44bc1bd785747a720e4a774da3f8c5337c6b",
+      "url": "https://habr.com/ru/articles/1077980",
+      "title": "Open Source IP камера на основе Raspberry Pi",
+      "posted_at": "2026-09-04T14:20:16.135330+00:00"
     }
   ]
 }
