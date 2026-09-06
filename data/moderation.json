@@ -338,6 +338,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADP2qbmUn8hXgNcu9M4jUWNJ-hehNZAAKaHGsblEnhSB9tIjzHowpqAQADAgADbQADPQQ",
       "review_message_id": 63,
       "created_at": "2026-09-05T04:23:38.057939+00:00"
+    },
+    {
+      "id": "31838ede0e842a69",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Как я себе умный дом строю. Проектирование",
+      "url": "https://habr.com/ru/articles/1079140",
+      "text": "<b>Как я себе умный дом строю. Проектирование</b>\n\nКогда я получил ключи от своей квартиры, было непонятно, будут у меня обои или крашеные стены, мебель на заказ или модульная мебель. Но одно я знал точно - я хочу умный дом. При этом, пока я ждал ключи, почти 1,5 года, мое понимание того, что такое умный дом, очень сильно менялось. Сейчас проектирование дошло до электрики и автоматизации, поэтому решил зафиксировать текущую версию умного дома и собрать обратную связь до того, как провода окажутся в стенах.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1079140\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/48a/303/cb0/48a303cb006d1465e87e8e7c6a2a58c7.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADQGqd2OuQXU5wDVQIwCcQ75k4Zl7PAAK9KWsba5_xSGm3gwhRkZ9KAQADAgADdwADPQQ",
+      "review_message_id": 64,
+      "created_at": "2026-09-06T21:19:39.692150+00:00"
     }
   ]
 }
