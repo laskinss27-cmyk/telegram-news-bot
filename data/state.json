@@ -186,6 +186,12 @@
       "url": "https://habr.com/ru/articles/1079140",
       "title": "Как я себе умный дом строю. Проектирование",
       "posted_at": "2026-09-06T21:19:39.693122+00:00"
+    },
+    {
+      "key": "cb48798cbd8a8913563fa29b323b50e5d7c48373b4b857bc89771a19c71b2785",
+      "url": "https://habr.com/ru/articles/1079258",
+      "title": "Не совсем умный дом на телефоне. Termux, zigbee/zigbee2mqtt и Android",
+      "posted_at": "2026-09-07T10:14:45.459509+00:00"
     }
   ]
 }

@@ -350,6 +350,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADQGqd2OuQXU5wDVQIwCcQ75k4Zl7PAAK9KWsba5_xSGm3gwhRkZ9KAQADAgADdwADPQQ",
       "review_message_id": 64,
       "created_at": "2026-09-06T21:19:39.692150+00:00"
+    },
+    {
+      "id": "cb48798cbd8a8913",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Не совсем умный дом на телефоне. Termux, zigbee/zigbee2mqtt и Android",
+      "url": "https://habr.com/ru/articles/1079258",
+      "text": "<b>Не совсем умный дом на телефоне. Termux, zigbee/zigbee2mqtt и Android</b>\n\nВ этой публикации речь пойдёт об установке на смартфон под управлением операционной системы Android, одного из протоколов умного дома – zigbee и его реализации для открытых систем автоматизации zigbee2mqtt. Всё это работает под эмулятором ОС Linux окружения -Termux, что позволяет развернуть элементы «Умного дома» прямо на мобильном устройстве и возможность реализации некоторых функций УД в тестовой среде.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1079258\">Читать полностью</a>",
+      "image_url": "https://habr.com/share/publication/1079258/69d148913713be06a800e871d18b789e/",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADQWqejpW7yA3uFJVuufjthwGIxEmAAAKRJmsba5_5SGrImOS7Z3YNAQADAgADeQADPQQ",
+      "review_message_id": 65,
+      "created_at": "2026-09-07T10:14:45.458392+00:00"
     }
   ]
 }
