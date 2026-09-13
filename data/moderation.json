@@ -374,6 +374,18 @@
       "photo_file_id": null,
       "review_message_id": 66,
       "created_at": "2026-09-08T11:15:04.230431+00:00"
+    },
+    {
+      "id": "01b1f822c213eb1c",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Видеонаблюдение на домашнем сервере со сквозным шифрованием",
+      "url": "https://habr.com/ru/companies/globalsign/articles/1081776",
+      "text": "<b>Видеонаблюдение на домашнем сервере со сквозным шифрованием</b>\n\nЗа последние годы произошло несколько утечек, когда посторонние лица получали доступ к видеопотоку с домашних камер наблюдения через облачные сервисы Ring, Nest, Wyze и т. д. Утечка или взлом облачного сервиса — это угроза для многих пользователей. Поэтому энтузиасты криптографии и открытого ПО разработали альтернативное решение — самодельные камеры видеонаблюдения со сквозным шифрованием потока от камеры до смартфона. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/companies/globalsign/articles/1081776\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/a39/f9a/cb8/a39f9acb8d1cdaf755b89b5af9e41cd7.webp",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADRGqm5zC9iCd5wGR-bcYdGwVWgZfoAALBImsbT4A5SfyifLlHwHEWAQADAgADdwADPQQ",
+      "review_message_id": 68,
+      "created_at": "2026-09-13T18:10:56.654012+00:00"
     }
   ]
 }

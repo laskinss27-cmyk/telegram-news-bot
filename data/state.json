@@ -198,6 +198,12 @@
       "url": "https://ctvcctv.ru/news/ctv-spectrum-2",
       "title": "CTV Spectrum 2 Теперь с управлением со смартфона",
       "posted_at": "2026-09-08T11:15:04.231360+00:00"
+    },
+    {
+      "key": "01b1f822c213eb1c2de7e92326294c5cb907b6586038b4abaa808f176c9daf67",
+      "url": "https://habr.com/ru/companies/globalsign/articles/1081776",
+      "title": "Видеонаблюдение на домашнем сервере со сквозным шифрованием",
+      "posted_at": "2026-09-13T18:10:56.654786+00:00"
     }
   ]
 }
