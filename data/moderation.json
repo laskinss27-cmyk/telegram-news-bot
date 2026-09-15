@@ -398,6 +398,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADRWqn7ULQr8NzloqO7tNGtH18h8D-AAL5H2sbmtRBSUThjcKVv3x8AQADAgADeQADPQQ",
       "review_message_id": 69,
       "created_at": "2026-09-14T12:49:06.846578+00:00"
+    },
+    {
+      "id": "f874c692ec5b51fa",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "«У меня там миллиарды»: как мы изолировали «Умный Дом» от телефона с банковским приложением",
+      "url": "https://habr.com/ru/articles/1082382",
+      "text": "<b>«У меня там миллиарды»: как мы изолировали «Умный Дом» от телефона с банковским приложением</b>\n\nНа последней фразе заказчик улыбнулся. Автоматика системы «Умный Дом» в доме ему была нужна, но облака, голосовые помощники и удалённое управление доверия не вызывали. От нас он хотел понять, есть ли у домашнего оборудования путь к его личным устройствам. В проекте были проводная шина, IP-шлюз и локальный сервер визуализации. Управление с личного телефона обсуждалось, но заказчик согласился на отдельный планшет.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1082382\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/35d/737/7a9/35d7377a9c94612b2a3ba76176f0772b.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADRmqpSK-fq_8_MxTe64SSg7PvL7ekAAIwHmsbmtRJSZ7SzkoTjk_rAQADAgADdwADPQQ",
+      "review_message_id": 70,
+      "created_at": "2026-09-15T13:31:27.577923+00:00"
     }
   ]
 }
