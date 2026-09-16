@@ -410,6 +410,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADRmqpSK-fq_8_MxTe64SSg7PvL7ekAAIwHmsbmtRJSZ7SzkoTjk_rAQADAgADdwADPQQ",
       "review_message_id": 70,
       "created_at": "2026-09-15T13:31:27.577923+00:00"
+    },
+    {
+      "id": "c7b62dcaabc45395",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Почему мой «умный дом» оказался умнее, чем я думала",
+      "url": "https://habr.com/ru/articles/1082652",
+      "text": "<b>Почему мой «умный дом» оказался умнее, чем я думала</b>\n\nТри года назад я поставила себе задачу: с пару десятков устройств, ноль облачных зависимостей, и чтобы всё крутилось на своей железке в шкафу. За последние 22 месяца правда упало дважды, но всего-лишь на минуты. Задержка от «нога переступила порог» до «свет зажёгся» — 110 миллисекунд. Я это мерила, и очень очень этим гордилась. А жить теперь в доме с повышенным IQ стало хуже. Почему? Об этом ниже. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1082652\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/4ab/4a3/7d7/4ab4a37d71363cc9afbbf4c411e6289d.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADR2qqZ6XRYm3ZmQXALxxJcZefpzQCAALmJGsbYahZSZzfMu-GIvTyAQADAgADeAADPQQ",
+      "review_message_id": 71,
+      "created_at": "2026-09-16T09:55:49.684375+00:00"
     }
   ]
 }
