@@ -422,6 +422,30 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADR2qqZ6XRYm3ZmQXALxxJcZefpzQCAALmJGsbYahZSZzfMu-GIvTyAQADAgADeAADPQQ",
       "review_message_id": 71,
       "created_at": "2026-09-16T09:55:49.684375+00:00"
+    },
+    {
+      "id": "b263bb55b869e692",
+      "status": "pending",
+      "source": "Dahua — официальный newsroom",
+      "title": "Технология Dahua получила сертификаты ISO/IEC 29147 и ISO/IEC 30111 для управления уязвимостями",
+      "url": "https://previous.dahuasecurity.com/newsEvents/pressRelease/10306",
+      "text": "<b>Технология Dahua получила сертификаты ISO/IEC 29147 и ISO/IEC 30111 для управления уязвимостями</b>\n\n18 сентября 2026 г. / Ханчжоу, Китай. Компания Dahua Technology, ведущий мировой поставщик решений и услуг AIoT, ориентированных на видео, недавно получила сертификаты ISO/IEC 29147:2018 и ISO/IEC 30111:2019, выданные BSI, что свидетельствует о международном признании практики раскрытия и обработки уязвимостей компании.\n\nИсточник: Dahua — официальный newsroom\n<a href=\"https://previous.dahuasecurity.com/newsEvents/pressRelease/10306\">Читать полностью</a>",
+      "image_url": "https://materialfile.dahuasecurity.com/uploads/image/20260918/300200.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADSGqtB_Umx8Ob2K-SrXW0MPQaWgg7AAI-IGsbhKJpSbEIgxJhqME0AQADAgADbQADPQQ",
+      "review_message_id": 72,
+      "created_at": "2026-09-18T09:44:21.264154+00:00"
+    },
+    {
+      "id": "acbd8391acccf661",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Как я создавал персонального ассистента на домашнем железе",
+      "url": "https://habr.com/ru/articles/1083752",
+      "text": "<b>Как я создавал персонального ассистента на домашнем железе</b>\n\nКратко: Я собрал локального ИИ‑ассистента на базе двух видеокарт по 12 ГБ. Система объединяет языковую модель с RAG, графовой памятью, MCP инструментами, голосовым вводом/выводом и доступом к локальной инфраструктуре. Он обрабатывает документы, почту, календарь, Telegram, умный дом и рутинные рабочие процессы. Главный вывод: моделей на 9B–27B параметров уже вполне достаточно для задач такого класса.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1083752\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/68d/eb7/daf/68deb7daf22d3fd220e40a2b9b714c06.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADSWqtB_riHaKg5ed9yLp0etrDohDyAAI_IGsbhKJpSf5yUgb3g9pQAQADAgADeQADPQQ",
+      "review_message_id": 73,
+      "created_at": "2026-09-18T09:44:26.772636+00:00"
     }
   ]
 }

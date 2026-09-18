@@ -222,6 +222,18 @@
       "url": "https://habr.com/ru/articles/1082652",
       "title": "Почему мой «умный дом» оказался умнее, чем я думала",
       "posted_at": "2026-09-16T09:55:49.685206+00:00"
+    },
+    {
+      "key": "b263bb55b869e692c7cc261690cbe1d4d520c9092f79eb140c1f75c52adc44b5",
+      "url": "https://previous.dahuasecurity.com/newsEvents/pressRelease/10306",
+      "title": "Технология Dahua получила сертификаты ISO/IEC 29147 и ISO/IEC 30111 для управления уязвимостями",
+      "posted_at": "2026-09-18T09:44:21.265122+00:00"
+    },
+    {
+      "key": "acbd8391acccf661b3d21c5f26e3798148c5e95985af0687ac78b5ecc47ef13c",
+      "url": "https://habr.com/ru/articles/1083752",
+      "title": "Как я создавал персонального ассистента на домашнем железе",
+      "posted_at": "2026-09-18T09:44:26.773721+00:00"
     }
   ]
 }
