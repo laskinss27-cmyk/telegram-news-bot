@@ -446,6 +446,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADSWqtB_riHaKg5ed9yLp0etrDohDyAAI_IGsbhKJpSf5yUgb3g9pQAQADAgADeQADPQQ",
       "review_message_id": 73,
       "created_at": "2026-09-18T09:44:26.772636+00:00"
+    },
+    {
+      "id": "44db4f7b68bc52af",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Мониторинг Умного Дома и его окружения телефоном без интернета. Android, Termux и открытая система автоматизации",
+      "url": "https://habr.com/ru/articles/1084174",
+      "text": "<b>Мониторинг Умного Дома и его окружения телефоном без интернета. Android, Termux и открытая система автоматизации</b>\n\nВ этой публикации рассмотрим контроль открытой системы «Умный дом» независимым от системы устройством - простым смартфоном, используя функции, для которых и изначально создавался мобильный телефон: звонки и SMS. В статье осуществим возможность контроля как системы домашней автоматизации (в моем случае Majordomo), так и отдельных элементов экосистемы и окружения умного дома. Основная идея статьи - контроль и отправка оповещений через мобильную сеть, без использования интернета.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1084174\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/b25/50f/ab7/b2550fab727800b3ce95bf41364d4817.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADSmqveYnxhTuGV486joCb_rflqhN3AALcIGsbJkp5SZr0kdCZNvCzAQADAgADeQADPQQ",
+      "review_message_id": 74,
+      "created_at": "2026-09-20T06:13:29.713369+00:00"
     }
   ]
 }
