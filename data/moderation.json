@@ -470,6 +470,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADS2qwKgiIHvDPg9rzVVBR0GsZ2COKAAJdHmsbNC6JSexJUMCOtQ-JAQADAgADeQADPQQ",
       "review_message_id": 75,
       "created_at": "2026-09-20T18:46:32.897067+00:00"
+    },
+    {
+      "id": "ceb55287d1b6cc16",
+      "status": "pending",
+      "source": "Ferra — технологии",
+      "title": "В Калужской области внедрили ИИ-видеоаналитику для поиска пропавших",
+      "url": "https://www.ferra.ru/news/v-rossii/v-kaluzhskoi-oblasti-vnedrili-ii-videoanalitiku-dlya-poiska-propavshikh-24-09-2026.htm",
+      "text": "<b>В Калужской области внедрили ИИ-видеоаналитику для поиска пропавших</b>\n\nКомпания NtechLab, технологический партнер госкорпорации Ростех, внедрила в Калужской области систему видеоаналитики на базе искусственного интеллекта (ИИ). Решение используется в составе АПК «Безопасный город» для поиска разыскиваемых и пропавших людей.\n\nИсточник: Ferra — технологии\n<a href=\"https://www.ferra.ru/news/v-rossii/v-kaluzhskoi-oblasti-vnedrili-ii-videoanalitiku-dlya-poiska-propavshikh-24-09-2026.htm\">Читать полностью</a>",
+      "image_url": "https://www.ferra.ru/imgs/2026/09/24/19/7007956/94e707f6999d1cb04602e38f8fc4b31a8ffd7498.jpeg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADTGq1oqByaHRVA2snIs-xBi_dnAABkAACKSZrGwbPqEnYjZTXLXWUsgEAAwIAA3kAAz0E",
+      "review_message_id": 76,
+      "created_at": "2026-09-24T22:22:24.363735+00:00"
     }
   ]
 }
