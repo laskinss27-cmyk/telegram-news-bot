@@ -494,6 +494,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADTWq6Dk6wCP_kkjVN8bjexJUeqeklAAJDG2sb2hDRSV2KH2Lg03RnAQADAgADbQADPQQ",
       "review_message_id": 77,
       "created_at": "2026-09-28T06:50:54.857196+00:00"
+    },
+    {
+      "id": "836097a3ed6f950b",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Границы универсального, или Интеграция протокола Matter over Wi-Fi в интеллектуальные колонки Сбер",
+      "url": "https://habr.com/ru/companies/sberdevices/articles/1085744",
+      "text": "<b>Границы универсального, или Интеграция протокола Matter over Wi-Fi в интеллектуальные колонки Сбер</b>\n\nПривет, Хабр! Недавно мы выпустили интеллектуальные колонки СберБум 2.0 — хаб умного дома, который поддерживает протоколы Zigbee и Matter over Wi-Fi. Zigbee у нас был и прежде, а вот Matter over Wi-Fi — нет. Внедрение оказалось предсказуемо сложным: требовалась архитектура, глубоко интегрированная в наш бэкенд.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/companies/sberdevices/articles/1085744\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/844/19d/0a5/84419d0a5e43e38b30e69b22c0ee6491.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADT2q73eff82K4J1F8LjdBn0xJ2k0hAALPI2sbCuHZSYb78xB1m_w8AQADAgADeAADPQQ",
+      "review_message_id": 79,
+      "created_at": "2026-09-29T15:48:55.433566+00:00"
     }
   ]
 }
