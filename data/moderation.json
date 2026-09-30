@@ -506,6 +506,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADT2q73eff82K4J1F8LjdBn0xJ2k0hAALPI2sbCuHZSYb78xB1m_w8AQADAgADeAADPQQ",
       "review_message_id": 79,
       "created_at": "2026-09-29T15:48:55.433566+00:00"
+    },
+    {
+      "id": "f055d21fb3243010",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Как я спасал метеостанцию, а в итоге написал своё киоск‑приложение для Android",
+      "url": "https://habr.com/ru/articles/1088650",
+      "text": "<b>Как я спасал метеостанцию, а в итоге написал своё киоск‑приложение для Android</b>\n\nОднажды у моей метеостанции Ecowitt умер комнатный дисплей. Через неделю на стене гостиной висел планшет с панелью умного дома, а на GitHub лежало открытое Android‑приложение, которое я написал вместе с ИИ‑ассистентом Claude. Расскажу, как так вышло, какие задачи пришлось решить (от вздувающихся батарей до сына, который хотел смотреть YouTube) и чему меня научила разработка с ИИ, если ты сам не Android‑разработчик. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1088650\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/4dc/7ab/6af/4dc7ab6afe56b843f3b1bc51b801bffe.jpeg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADUGq9YDg2gd2HHiNV80mtT9r2r0nvAALmIWsbCuHpSZGWaVwCMrzMAQADAgADdwADPQQ",
+      "review_message_id": 80,
+      "created_at": "2026-09-30T19:17:12.537284+00:00"
     }
   ]
 }
