@@ -530,6 +530,30 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADUWrCH9509iqVShpDqi9Fobso1SY0AAJcI2sbSckYSkdhs-X4dDTvAQADAgADeQADPQQ",
       "review_message_id": 81,
       "created_at": "2026-10-04T09:43:59.071683+00:00"
+    },
+    {
+      "id": "2722cc700cb0c189",
+      "status": "pending",
+      "source": "Ferra — технологии",
+      "title": "Apple усилит контроль доступа приложений к данным на Mac",
+      "url": "https://www.ferra.ru/news/techlife/apple-usilit-kontrol-dostupa-prilozhenii-k-dannym-na-mac-04-10-2026.htm",
+      "text": "<b>Apple усилит контроль доступа приложений к данным на Mac</b>\n\nApple планирует добавить новые настройки конфиденциальности для компьютеров Mac. Компания связывает изменения с ростом рисков при предоставлении сторонним программам широкого доступа к данным, в том числе приложениям с искусственным интеллектом (ИИ).\n\nИсточник: Ferra — технологии\n<a href=\"https://www.ferra.ru/news/techlife/apple-usilit-kontrol-dostupa-prilozhenii-k-dannym-na-mac-04-10-2026.htm\">Читать полностью</a>",
+      "image_url": "https://www.ferra.ru/imgs/2026/10/04/07/7010357/2770790f043a71f3f2bda0d6803c5679cee70334.jpeg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADUmrCqoU-52-yImxBj4YsVQ9LQxrpAALfJmsbSckYSoAVfLY-777oAQADAgADeQADPQQ",
+      "review_message_id": 82,
+      "created_at": "2026-10-04T19:35:33.196388+00:00"
+    },
+    {
+      "id": "3031dec759dae062",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Автономный умный дом: к чему готовиться, если из-за блокировок пропадет интернет",
+      "url": "https://habr.com/ru/articles/1090236",
+      "text": "<b>Автономный умный дом: к чему готовиться, если из-за блокировок пропадет интернет</b>\n\nАвтономный умный дом: к чему готовиться, если из-за блокировок пропадет интернет На рынке систем умного дома сегодня есть два противоположных полюса. Первый — выстраивание архитектуры в расчете на облачную инфраструктуру. У такого подхода много плюсов, но все их полностью обнуляет тотальная зависимость от доступности чужого сервера. Второй — локальные интеграционные решения, когда интегратор собирает из разнородных систем что-то уникальное, условно связанное между собой и непростое в поддержке.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1090236\">Читать полностью</a>",
+      "image_url": "https://habr.com/share/publication/1090236/b33094655b58e605e835cfee8f196465/",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADU2rCqodTQ5kD0YYJN-EPvrAKS359AALgJmsbSckYSpHyp7mq3oakAQADAgADeQADPQQ",
+      "review_message_id": 83,
+      "created_at": "2026-10-04T19:35:35.219573+00:00"
     }
   ]
 }
