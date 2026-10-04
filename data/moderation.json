@@ -518,6 +518,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADUGq9YDg2gd2HHiNV80mtT9r2r0nvAALmIWsbCuHpSZGWaVwCMrzMAQADAgADdwADPQQ",
       "review_message_id": 80,
       "created_at": "2026-09-30T19:17:12.537284+00:00"
+    },
+    {
+      "id": "cd9800f0587570b8",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Маруся и Home Assistant, часть вторая: без телефона",
+      "url": "https://habr.com/ru/articles/1090102",
+      "text": "<b>Маруся и Home Assistant, часть вторая: без телефона</b>\n\nВ прошлой статье я рассказывал, как подружить колонку «Маруся» с Home Assistant через DIY Hooks: пишем руками YAML со списком устройств и HTTP-запросами, вставляем туда адрес Home Assistant и долгосрочный токен, заливаем через приложение «Маруся» на телефоне и дальше немножко шаманим, пока кнопка «Удалить» не превратится в кнопку «Выбрать».\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1090102\">Читать полностью</a>",
+      "image_url": "https://habr.com/share/publication/1090102/8e05347c28384036685e66545fc51d6f/",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADUWrCH9509iqVShpDqi9Fobso1SY0AAJcI2sbSckYSkdhs-X4dDTvAQADAgADeQADPQQ",
+      "review_message_id": 81,
+      "created_at": "2026-10-04T09:43:59.071683+00:00"
     }
   ]
 }
