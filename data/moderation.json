@@ -554,6 +554,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADU2rCqodTQ5kD0YYJN-EPvrAKS359AALgJmsbSckYSpHyp7mq3oakAQADAgADeQADPQQ",
       "review_message_id": 83,
       "created_at": "2026-10-04T19:35:35.219573+00:00"
+    },
+    {
+      "id": "8b9d98c397b9e843",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "ESP32-P4 вместо планшета на стене: неделю живу с панелью Home Assistant и разбираюсь, зачем она нужна",
+      "url": "https://habr.com/ru/articles/1090496",
+      "text": "<b>ESP32-P4 вместо планшета на стене: неделю живу с панелью Home Assistant и разбираюсь, зачем она нужна</b>\n\nЕсли Home Assistant у вас уже работает, а мысль о постоянном экране на стене время от времени возвращается, эта статья как раз про практическую сторону вопроса. Что даёт готовая ESP32-панель, чем она отличается от планшета и DIY, где упирается в ограничения и насколько вообще пригодна для ежедневного управления домом. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1090496\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/getpro/habr/upload_files/73d/195/44c/73d19544c29ee48a541abc8b398d4246.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADVGrD63qnicuSfGh8dIsjmjhXBA08AAJ8JmsbeEcgSgxQZKPC7DsYAQADAgADeAADPQQ",
+      "review_message_id": 84,
+      "created_at": "2026-10-05T18:24:58.444951+00:00"
     }
   ]
 }
