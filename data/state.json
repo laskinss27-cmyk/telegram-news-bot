@@ -336,6 +336,12 @@
       "url": "https://www.ferra.ru/news/smarthome/apple-podtverdila-datu-prezentacii-novykh-ustroistv-dlya-umnogo-doma-09-10-2026.htm",
       "title": "Apple подтвердила дату презентации новых устройств для умного дома",
       "posted_at": "2026-10-09T15:16:56.303758+00:00"
+    },
+    {
+      "key": "47f10e0446048479219ac3c03500a0bf87caf1b5f36d53f267722b47dc887cd4",
+      "url": "https://habr.com/ru/articles/1093134",
+      "title": "[Перевод] Я заказал художнику рисунок своего дома, и теперь это мой дашборд Home Assistant",
+      "posted_at": "2026-10-12T20:16:52.631179+00:00"
     }
   ]
 }

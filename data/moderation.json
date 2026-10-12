@@ -650,6 +650,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADZWrJBWiKVRjb-PQW2jBs50ibAbHmAAKmIWsbaMNISgvPE7L4NVboAQADAgADeQADPQQ",
       "review_message_id": 101,
       "created_at": "2026-10-09T15:16:56.302697+00:00"
+    },
+    {
+      "id": "47f10e0446048479",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "[Перевод] Я заказал художнику рисунок своего дома, и теперь это мой дашборд Home Assistant",
+      "url": "https://habr.com/ru/articles/1093134",
+      "text": "<b>[Перевод] Я заказал художнику рисунок своего дома, и теперь это мой дашборд Home Assistant</b>\n\nАнтон Фролов год автоматизировал дом на Home Assistant, но приложением, кроме него, никто в семье пользоваться не хотел. Тогда он заказал художнику иллюстрацию дома в разрезе и собрал из неё дашборд: камин и кондиционеры анимированы, ночью меняется освещение, оба этажа и сад видны на телевизоре. В статье техзадание для художника, карточка picture-elements, переключение дня и ночи, YAML-режим и киоск на HDMI. Читать дальше →\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1093134\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/ee/d2/0f/eed20f93f7fa228867d8bfd8078d140d.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADZmrNQDRHKZIAAdgs3TE8xSNVnnVTOwACwB5rGybraEqak4T_RkikOgEAAwIAA3cAAz0E",
+      "review_message_id": 102,
+      "created_at": "2026-10-12T20:16:52.630028+00:00"
     }
   ]
 }
