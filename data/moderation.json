@@ -662,6 +662,30 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADZmrNQDRHKZIAAdgs3TE8xSNVnnVTOwACwB5rGybraEqak4T_RkikOgEAAwIAA3cAAz0E",
       "review_message_id": 102,
       "created_at": "2026-10-12T20:16:52.630028+00:00"
+    },
+    {
+      "id": "92c154f378e9f47e",
+      "status": "pending",
+      "source": "Ferra — технологии",
+      "title": "Apple признала первую приставку Apple TV 4K «винтажом»",
+      "url": "https://www.ferra.ru/news/tv/apple-priznala-pervuyu-pristavku-apple-tv-4k-vintazhom-12-10-2026.htm",
+      "text": "<b>Apple признала первую приставку Apple TV 4K «винтажом»</b>\n\nApple официально присвоила первой модели Apple TV 4K, выпущенной в 2017 году, статус «винтажного» устройства. Презентация новых устройств Apple для умного дома ожидается 13 октября. Видимо, тогда-то нам и новую модель.\n\nИсточник: Ferra — технологии\n<a href=\"https://www.ferra.ru/news/tv/apple-priznala-pervuyu-pristavku-apple-tv-4k-vintazhom-12-10-2026.htm\">Читать полностью</a>",
+      "image_url": "https://www.ferra.ru/imgs/2026/10/12/12/7012347/64ff795e72776d1a731ed74e64e91d84c05988f5.webp",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADaGrOa9-m7qL4Ud2uN-o8xYzkKsIHAAITJGsbTIZwSpNdVBARSEENAQADAgADdwADPQQ",
+      "review_message_id": 104,
+      "created_at": "2026-10-13T17:35:27.629655+00:00"
+    },
+    {
+      "id": "9f74baf9ac7fd7ee",
+      "status": "pending",
+      "source": "iXBT Live — техника для дома",
+      "title": "Apple анонсировала HomeView с 7-дюймовым экраном и выходом 13 ноября",
+      "url": "https://www.ixbt.com/live/chome/apple-anonsirovala-homeview-s-7-dyuymovym-ekranom-i-vyhodom-13-noyabrya.html",
+      "text": "<b>Apple анонсировала HomeView с 7-дюймовым экраном и выходом 13 ноября</b>\n\nApple представила Apple HomeView — умный домашний дисплей с Siri AI, камерой и функциями управления умным домом. Устройство доступно для предзаказа по цене 299 долларов, а продажи... Читать дальше\n\nИсточник: iXBT Live — техника для дома\n<a href=\"https://www.ixbt.com/live/chome/apple-anonsirovala-homeview-s-7-dyuymovym-ekranom-i-vyhodom-13-noyabrya.html\">Читать полностью</a>",
+      "image_url": "https://img.ixbt.site/live/topics/preview/00/17/20/10/df7db4b4a9.jpg?w=1600&h=900&resize=entropy&format=jpeg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADaWrOa-Dg8Rq9fBZULPZipH5ty_mEAAIUJGsbTIZwSkFj0HKMKXmaAQADAgADeQADPQQ",
+      "review_message_id": 105,
+      "created_at": "2026-10-13T17:35:28.799787+00:00"
     }
   ]
 }
