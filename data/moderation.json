@@ -698,6 +698,30 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADamrPho93fihbRvAqmQJSeDBPj_BAAAKMIGsbTIZ4SgT6Vsp4PSD3AQADAgADeQADPQQ",
       "review_message_id": 106,
       "created_at": "2026-10-14T13:41:35.291073+00:00"
+    },
+    {
+      "id": "c83dfd76458c6ce0",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Умный дом, который не ляжет вместе с чужим дата-центром",
+      "url": "https://habr.com/ru/articles/1094658",
+      "text": "<b>Умный дом, который не ляжет вместе с чужим дата-центром</b>\n\nОблако — удобно, пока работает. Статья о том, какие архитектурные решения нужны, чтобы умный дом продолжал жить своей жизнью, даже когда чужой дата-центр недоступен. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1094658\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/ce/9f/38/ce9f3857f04deb68807e666fcf441988.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADbGrQt-7QKzIsI3y4pg6vV9VKV5u-AALKJWsbAkeASta2LMkurUd7AQADAgADbQADPQQ",
+      "review_message_id": 108,
+      "created_at": "2026-10-15T11:24:30.336899+00:00"
+    },
+    {
+      "id": "c8f6e2a836706a77",
+      "status": "pending",
+      "source": "iXBT Live — техника для дома",
+      "title": "Zigbee, Wi-Fi или Matter - какой протокол выбрать для датчиков умного дома и не купить лишнее",
+      "url": "https://www.ixbt.com/live/chome/zigbee-wi-fi-ili-matter-kakoy-protokol-vybrat-dlya-datchikov-umnogo-doma-i-ne-kupit-lishnee.html",
+      "text": "<b>Zigbee, Wi-Fi или Matter - какой протокол выбрать для датчиков умного дома и не купить лишнее</b>\n\nДатчик за 800 рублей может сесть за полгода, а соседский такой же проживёт годы. Почему так и при чём тут Wi-Fi, Zigbee и Matter — считаем с цифрами. Читать дальше\n\nИсточник: iXBT Live — техника для дома\n<a href=\"https://www.ixbt.com/live/chome/zigbee-wi-fi-ili-matter-kakoy-protokol-vybrat-dlya-datchikov-umnogo-doma-i-ne-kupit-lishnee.html\">Читать полностью</a>",
+      "image_url": "https://img.ixbt.site/live/topics/preview/00/17/22/27/bf5f8e08c3.png?w=1600&h=900&resize=entropy&format=jpeg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADbWrQt_E0Ib3HIyEkJvKg--EvyiKeAALLJWsbAkeASgABs79JteGSMAEAAwIAA3kAAz0E",
+      "review_message_id": 109,
+      "created_at": "2026-10-15T11:24:33.422668+00:00"
     }
   ]
 }
