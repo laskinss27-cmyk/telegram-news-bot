@@ -734,6 +734,18 @@
       "photo_file_id": null,
       "review_message_id": 110,
       "created_at": "2026-10-16T14:49:38.498139+00:00"
+    },
+    {
+      "id": "5ad3f81ba7bc61ff",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Интеграция LED-люстры в умный дом",
+      "url": "https://habr.com/ru/articles/1095488",
+      "text": "<b>Интеграция LED-люстры в умный дом</b>\n\nДисклеймер. В проекте есть работа с сетевым напряжением 220 В и с радиопередачей. Первое может убить, второе — только ваши нервы. Всё, что касается сети, делайте при выключенном автомате в щитке, а не просто при выключенном выключателе. Если не уверены — зовите электрика. А перехватывать и воспроизводить радиосигналы допустимо только для своих собственных устройств. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1095488\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/52/d8/c3/52d8c3f11a32f4a8f7e56c71f0ad642e.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADcGrScVK8s1jIPQw_KTzNH33HYPbjAAJ0IGsbN3GQSrWbHJLxVxKPAQADAgADeAADPQQ",
+      "review_message_id": 112,
+      "created_at": "2026-10-16T18:47:46.521794+00:00"
     }
   ]
 }
