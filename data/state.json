@@ -384,6 +384,12 @@
       "url": "https://habr.com/ru/articles/1095488",
       "title": "Интеграция LED-люстры в умный дом",
       "posted_at": "2026-10-16T18:47:46.523302+00:00"
+    },
+    {
+      "key": "226089a872f65138afc10b657ebea370706239ee01797709e05c8acf38ff3012",
+      "url": "https://habr.com/ru/companies/otus/articles/1095190",
+      "title": "[Перевод] Как я превратил свой нарисованный дом в живой дашборд Home Assistant",
+      "posted_at": "2026-10-17T14:12:09.254698+00:00"
     }
   ]
 }

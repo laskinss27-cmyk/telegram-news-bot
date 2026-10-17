@@ -746,6 +746,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADcGrScVK8s1jIPQw_KTzNH33HYPbjAAJ0IGsbN3GQSrWbHJLxVxKPAQADAgADeAADPQQ",
       "review_message_id": 112,
       "created_at": "2026-10-16T18:47:46.521794+00:00"
+    },
+    {
+      "id": "226089a872f65138",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "[Перевод] Как я превратил свой нарисованный дом в живой дашборд Home Assistant",
+      "url": "https://habr.com/ru/companies/otus/articles/1095190",
+      "text": "<b>[Перевод] Как я превратил свой нарисованный дом в живой дашборд Home Assistant</b>\n\nАвтоматизировать дом оказалось проще, чем убедить домашних пользоваться Home Assistant. Когда обычный дашборд так и не прижился, автор решил зайти с другой стороны: нанял художника, заказал иллюстрацию собственного дома и превратил её в живой интерфейс управления. В статье — как с помощью стандартных возможностей Home Assistant удалось оживить рисунок, связать его с реальными устройствами и собрать весь умный дом на одном экране. Читать историю\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/companies/otus/articles/1095190\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/45/2e/5b/452e5b49ea3d6356cc962528a99c8ce2.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADcWrTgjlGktwys_2L_e6ulc7njwIaAAI6HWsbN3GgStiQkSDYvZleAQADAgADeQADPQQ",
+      "review_message_id": 113,
+      "created_at": "2026-10-17T14:12:09.253048+00:00"
     }
   ]
 }
