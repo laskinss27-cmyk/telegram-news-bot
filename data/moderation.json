@@ -770,6 +770,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADcmrZUgSZ4kcEs1DlRMeUJFIZeltzAAJFGGsbByvQSslKsj73L9SkAQADAgADdwADPQQ",
       "review_message_id": 114,
       "created_at": "2026-10-22T00:00:04.763891+00:00"
+    },
+    {
+      "id": "efe9677a2cb47639",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Умный храм: технологии плюс традиции",
+      "url": "https://habr.com/ru/companies/wirenboard/articles/1097682",
+      "text": "<b>Умный храм: технологии плюс традиции</b>\n\nУмный дом уже никого не удивляет. А умный храм? Зачем православному храму понадобились контроллер, реле и скрипты — и что здесь можно поручить автоматике? Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/companies/wirenboard/articles/1097682\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/25/4a/5c/254a5cd863b5037aff03f061ce347792.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADdGrZ4K14IIz3RkliXfFhc0RWVzQTAAKqHWsb18XRSgr8_dN7V5-HAQADAgADdwADPQQ",
+      "review_message_id": 116,
+      "created_at": "2026-10-22T10:08:45.767085+00:00"
     }
   ]
 }
