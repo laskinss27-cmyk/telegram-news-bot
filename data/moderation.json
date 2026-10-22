@@ -758,6 +758,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADcWrTgjlGktwys_2L_e6ulc7njwIaAAI6HWsbN3GgStiQkSDYvZleAQADAgADeQADPQQ",
       "review_message_id": 113,
       "created_at": "2026-10-17T14:12:09.253048+00:00"
+    },
+    {
+      "id": "a3c0cd8d28e2d79f",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Как хакеры видят ваш умный дом: обнаружение Zigbee‑устройств без взлома шифрования",
+      "url": "https://habr.com/ru/companies/hex_team/articles/1096220",
+      "text": "<b>Как хакеры видят ваш умный дом: обнаружение Zigbee‑устройств без взлома шифрования</b>\n\nZigbee — это популярный беспроводной протокол для умного дома, который по умолчанию шифрует сетевой трафик. Шифрование защищает содержимое пакетов, но не метаданные: длину пакетов, межпакетные интервалы, периодичность служебных отчётов и шаблоны событий. Каждое устройство имеет уникальные fingerprints, заданные производителем для экономии батареи.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/companies/hex_team/articles/1096220\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/e2/fd/f0/e2fdf07fb2aabac512713d7465aa2dbb.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADcmrZUgSZ4kcEs1DlRMeUJFIZeltzAAJFGGsbByvQSslKsj73L9SkAQADAgADdwADPQQ",
+      "review_message_id": 114,
+      "created_at": "2026-10-22T00:00:04.763891+00:00"
     }
   ]
 }

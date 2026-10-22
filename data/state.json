@@ -390,6 +390,12 @@
       "url": "https://habr.com/ru/companies/otus/articles/1095190",
       "title": "[Перевод] Как я превратил свой нарисованный дом в живой дашборд Home Assistant",
       "posted_at": "2026-10-17T14:12:09.254698+00:00"
+    },
+    {
+      "key": "a3c0cd8d28e2d79f77afc5e30f0690403bbb1adfc88dfb4b71aa30a1695ed451",
+      "url": "https://habr.com/ru/companies/hex_team/articles/1096220",
+      "title": "Как хакеры видят ваш умный дом: обнаружение Zigbee‑устройств без взлома шифрования",
+      "posted_at": "2026-10-22T00:00:04.764988+00:00"
     }
   ]
 }
