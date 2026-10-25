@@ -794,6 +794,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADdWraKIJp-bPBs5b9EsqY0GHvjfOCAAIzImsb18XRSj5m9bX_R2g_AQADAgADdwADPQQ",
       "review_message_id": 117,
       "created_at": "2026-10-22T15:15:14.777708+00:00"
+    },
+    {
+      "id": "27a32fe082eec87b",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Мой дом ‑ мои правила. А кто дежурит, когда он ломается?",
+      "url": "https://habr.com/ru/articles/1099028",
+      "text": "<b>Мой дом ‑ мои правила. А кто дежурит, когда он ломается?</b>\n\nЛет семь назад я собирал домашнюю автоматику примерно на 20 тысяч рублей: датчики влажности, CO₂, движения, розетки, реле. С ESP и Tuya простые команды по локальной сети получались, а вот таймеры и согласование нескольких устройств иногда жили своей жизнью. Хотелось меньше возиться с бытом, а не поменять класс проблем. С тех пор Home Assistant, Zigbee2MQTT, ESPHome и локальный голос стали куда привычнее. Когда я принёс в IT‑чат первую статью о независимом умном доме, мне об этом напомнили.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1099028\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/18/95/be/1895be7521cf5eec048effe7cdcc1621.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADdmrd5kvZVOhhRcrUJss4EDwAAfWbcgACMh1rG-PW8EpT-BoEAQunvAEAAwIAA3kAAz0E",
+      "review_message_id": 118,
+      "created_at": "2026-10-25T11:21:47.747069+00:00"
     }
   ]
 }
