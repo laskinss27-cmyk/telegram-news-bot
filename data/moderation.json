@@ -806,6 +806,30 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADdmrd5kvZVOhhRcrUJss4EDwAAfWbcgACMh1rG-PW8EpT-BoEAQunvAEAAwIAA3kAAz0E",
       "review_message_id": 118,
       "created_at": "2026-10-25T11:21:47.747069+00:00"
+    },
+    {
+      "id": "18c50a1bd6ffbc4e",
+      "status": "pending",
+      "source": "Dahua — официальный newsroom",
+      "title": "Dahua запускает экосистему VSaaS с облачной архитектурой операторского класса и ИИ следующего поколения",
+      "url": "https://previous.dahuasecurity.com/newsEvents/pressRelease/10324",
+      "text": "<b>Dahua запускает экосистему VSaaS с облачной архитектурой операторского класса и ИИ следующего поколения</b>\n\n29 октября 2026 г. / Ханчжоу, Китай. Компания Dahua Technology представила свою новейшую экосистему видеонаблюдения как услуги (VSaaS) на недавно завершившемся онлайн-мероприятии Dahua Global Telco-SOC VSaaS. В рамках темы «Одно облако, многопользовательские, бесконечные отрасли» на мероприятии было описано, как операторы связи, интернет-провайдеры и операторы безопасности могут использовать свою существующую инфраструктуру и сервисные сети для доставки облачного видео. наблюдение и услуги AIoT.\n\nИсточник: Dahua — официальный newsroom\n<a href=\"https://previous.dahuasecurity.com/newsEvents/pressRelease/10324\">Читать полностью</a>",
+      "image_url": "https://materialfile.dahuasecurity.com/uploads/image/20261029/300200.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADd2rjek03WlRnxlHdsEkTjM6MedKeAAJPIWsbRhwZS18HaDXo5FxOAQADAgADbQADPQQ",
+      "review_message_id": 119,
+      "created_at": "2026-10-29T16:54:37.388204+00:00"
+    },
+    {
+      "id": "91b891c4a33dc721",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Из автоматизации ИТП в DIY: как теплотехник скрестил ПР200, Orange Pi и Zigbee",
+      "url": "https://habr.com/ru/articles/1101298",
+      "text": "<b>Из автоматизации ИТП в DIY: как теплотехник скрестил ПР200, Orange Pi и Zigbee</b>\n\nПривет, Хабр! Месяц назад я опубликовал свою первую статью о том, как в 50 лет написал универсальный Android-SCADA движок на Flutter для промышленных ИТП. Честно скажу — я не ожидал такой теплой поддержки в комментариях. И я решил: раз уж я стер границу между КИПиА и IT в рабочих проектах, пора навести порядок дома. Домашней автоматизацией я никогда не занимался.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1101298\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/ff/7b/2b/ff7b2b98fa59e5f5d906f4b64459563f.webp",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADeGrjek62gkttrDlBnBsCyH91YotbAAJQIWsbRhwZS9Nb_45eGxEEAQADAgADeAADPQQ",
+      "review_message_id": 120,
+      "created_at": "2026-10-29T16:54:38.694901+00:00"
     }
   ]
 }
