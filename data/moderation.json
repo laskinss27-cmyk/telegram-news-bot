@@ -854,6 +854,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADfWro0_zIglKm0B8uPcG0Dh6IzLY_AAISL2sbFo1ISxPmhRYUG18_AQADAgADbQADPQQ",
       "review_message_id": 125,
       "created_at": "2026-11-02T18:18:36.222404+00:00"
+    },
+    {
+      "id": "18c3a6aaaeb7a27f",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Малая автоматизация",
+      "url": "https://habr.com/ru/articles/1103312",
+      "text": "<b>Малая автоматизация</b>\n\nВсем привет. Есть малая механизация, когда вы мотокультиватором типа &quot;Крот&quot; сажаете картошку на 20 сотках, а есть малая автоматизация, когда вам лень ставить жирный homeassiant и/или приложение от вендора с завязкой на облака и хочется пожить в уютном локалхосте. Сегодня пойдет речь про вторую. И да, важный момент - вы не планировали умный дом и не тянули провода заранее.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1103312\">Читать полностью</a>",
+      "image_url": "https://habr.com/share/publication/1103312/40c293e98308bdbe642127084ea55590/",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADfmrqHpbej8m-hGKUT4w_gasWTwwtAAL_IWsbFEBRS_KK0gVtKkEfAQADAgADeQADPQQ",
+      "review_message_id": 126,
+      "created_at": "2026-11-03T17:49:11.119364+00:00"
     }
   ]
 }
