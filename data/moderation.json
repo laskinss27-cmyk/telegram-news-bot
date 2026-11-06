@@ -878,6 +878,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADf2rsXwABJUkc4-b7_YE3GjsP_23hkgACjR5rG-C7YEvpz9e9m_ZhlwEAAwIAA20AAz0E",
       "review_message_id": 127,
       "created_at": "2026-11-05T10:48:33.136283+00:00"
+    },
+    {
+      "id": "63a7297f2e8b9cd0",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Заблокированный BCU Key в KNX: способы восстановления устройств без отправки производителю",
+      "url": "https://habr.com/ru/articles/1104326",
+      "text": "<b>Заблокированный BCU Key в KNX: способы восстановления устройств без отправки производителю</b>\n\nЗлоумышленники блокируют устройства KNX с помощью штатной функции защиты — BCU Key. Разбираем механизм атаки и три рабочих способа восстановления: распараллеленный перебор, анализ памяти и обход через шину — на примере реального случая с 570 устройствами. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1104326\">Читать полностью</a>",
+      "image_url": "https://habr.com/share/publication/1104326/71232fde289deccd1c750fcf56ebf9d9/",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADgGrt62eVGBd5vx60syOO-jbzKcjgAALDH2sbfRpxSzOk9rhckav7AQADAgADeQADPQQ",
+      "review_message_id": 128,
+      "created_at": "2026-11-06T14:59:51.226747+00:00"
     }
   ]
 }
