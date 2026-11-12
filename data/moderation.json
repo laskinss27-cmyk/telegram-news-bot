@@ -902,6 +902,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADgWrudsAy3xI_8NTRBhzf6aZgx2R5AALhHmsbfRp5S4astCjMPG9AAQADAgADdwADPQQ",
       "review_message_id": 129,
       "created_at": "2026-11-07T00:54:24.849307+00:00"
+    },
+    {
+      "id": "8162b619e3434b7c",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Matter over Wi-Fi и iOS: легко ли внедрить протокол в iOS-приложение?",
+      "url": "https://habr.com/ru/companies/sberdevices/articles/1106960",
+      "text": "<b>Matter over Wi-Fi и iOS: легко ли внедрить протокол в iOS-приложение?</b>\n\nСалют, Хабр! Я Владислав — iOS-разработчик. Ранее мы рассказывали, как реализовали Matter over Wi-Fi в умном доме Сбер, изменили флоу подключения для более удобного пользовательского пути и интегрировали его в приложение Салют (Android). А параллельно мы ради эксперимента протестировали, насколько сложно интегрировать Matter в iOS. Это был интересный опыт. Спойлер: мы сделали процесс подключения с отображением статусов в реальном времени, который работал идеально... но только у разработчиков.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/companies/sberdevices/articles/1106960\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/dd/4c/9c/dd4c9c09fcfd1ad26a5fc7e774b4685b.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADhGr2AmK2ovVe58DTXD4s9CBl6SDFAAIwHmsbfUqxSwkh4398AuTFAQADAgADeAADPQQ",
+      "review_message_id": 132,
+      "created_at": "2026-11-12T18:16:02.691704+00:00"
     }
   ]
 }

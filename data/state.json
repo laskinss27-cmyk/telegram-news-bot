@@ -462,6 +462,12 @@
       "url": "https://habr.com/ru/articles/1104774",
       "title": "Делаем освещение умным: полный гайд от Zigbee лампочек и выключателей до цифровых трековых шин на DALI",
       "posted_at": "2026-11-07T00:54:24.850818+00:00"
+    },
+    {
+      "key": "8162b619e3434b7c7e5f033688b3bc831d7575d677c3d53d9e4c27df3b2b04ff",
+      "url": "https://habr.com/ru/companies/sberdevices/articles/1106960",
+      "title": "Matter over Wi-Fi и iOS: легко ли внедрить протокол в iOS-приложение?",
+      "posted_at": "2026-11-12T18:16:02.693285+00:00"
     }
   ]
 }
