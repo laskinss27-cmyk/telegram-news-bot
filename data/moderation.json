@@ -926,6 +926,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADhWr4lE4j3QiphRMh08ZXvr-bQyLgAAIaJGsbPvTJS6eC6t9-rHKhAQADAgADeQADPQQ",
       "review_message_id": 133,
       "created_at": "2026-11-14T17:03:10.712234+00:00"
+    },
+    {
+      "id": "10c2150bafedc36b",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Ремонт терморегулятора MOES BHT-002",
+      "url": "https://habr.com/ru/articles/1107914",
+      "text": "<b>Ремонт терморегулятора MOES BHT-002</b>\n\nCтоит теплый пол, обслуживаемый термостатом MOES BHT-002-GBLW. Термостат перешит в ESPHome по методу уважаемого Brokly. Причем перешит варварски с заменой родного китайского чипа Tuwe3S на ESP8286 в форм факторе ESP12. Здесь, как и в большинстве подобных туевских железок, ESP отвечает только и исключительно за WiFi. Вся логика находится в собственной микросхеме, куда нас со свиным рылом не пускают. Это удобно для производителя.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1107914\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/d3/a1/07/d3a107a493bc10600d6a982f9bd054f8.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADhmr40jOGPpZbET9xHdWyQ3iC02rHAAIDJmsbPvTJS0Fhxvpa_tKvAQADAgADeAADPQQ",
+      "review_message_id": 134,
+      "created_at": "2026-11-14T21:27:15.682829+00:00"
     }
   ]
 }
