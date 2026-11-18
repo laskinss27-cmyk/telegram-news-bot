@@ -938,6 +938,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADhmr40jOGPpZbET9xHdWyQ3iC02rHAAIDJmsbPvTJS0Fhxvpa_tKvAQADAgADeAADPQQ",
       "review_message_id": 134,
       "created_at": "2026-11-14T21:27:15.682829+00:00"
+    },
+    {
+      "id": "7acd8d7c96f07c29",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Новая Яндекс Станция BORK: умная колонка или предмет роскоши?",
+      "url": "https://habr.com/ru/companies/technopark/articles/1109416",
+      "text": "<b>Новая Яндекс Станция BORK: умная колонка или предмет роскоши?</b>\n\nЧто получится, если объединить в одном корпусе мощную акустическую систему, голосового помощника с сенсорным экраном, хаб умного дома и мультимедийную платформу для телевизора? Яндекс совместно с BORK представил Станцию, которая совмещает все эти возможности. Разбираемся, как устроена новинка, какие технологии используются внутри и для каких домашних сценариев она действительно пригодится. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/companies/technopark/articles/1109416\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/b3/6b/59/b36b5957134a3352d8cd2e1cd37fe8ae.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADh2r9ojyrrzhJjfQAAaT0ovUAAQmbTzgAAh8haxtsPPFLRlqF40---JQBAAMCAAN4AAM9BA",
+      "review_message_id": 135,
+      "created_at": "2026-11-18T13:03:57.136912+00:00"
     }
   ]
 }
