@@ -962,6 +962,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADiGr-a0r299UdJf9hIS7RC8bQ9h-HAALIHGsbPeHxS0ewcpWlzFmkAQADAgADeQADPQQ",
       "review_message_id": 136,
       "created_at": "2026-11-19T03:21:46.564424+00:00"
+    },
+    {
+      "id": "2ed02ee3c6ab3655",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Бари, что не так дома? Локальный голосовой ассистент год спустя",
+      "url": "https://habr.com/ru/companies/wirenboard/articles/1108590",
+      "text": "<b>Бари, что не так дома? Локальный голосовой ассистент год спустя</b>\n\nГод назад наш локальный голосовой ассистент BARY понимал не только «включи свет на кухне», но и «тут что-то жарковато». Правда, ему требовалось отдельное «железо». Теперь он работает прямо на контроллере умного дома, знает, из какой комнаты его позвали, и сам ищет странности в работе инженерки. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/companies/wirenboard/articles/1108590\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/8f/c8/45/8fc8452fd1893149a0e8d8a29b8f6c49.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADiWr-8qMpoKUMEncHMkL_x5BvyB3BAAI7H2sbPeH5Sy-xiUOBF_-6AQADAgADeQADPQQ",
+      "review_message_id": 137,
+      "created_at": "2026-11-19T12:59:15.735585+00:00"
     }
   ]
 }
