@@ -974,6 +974,30 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADiWr-8qMpoKUMEncHMkL_x5BvyB3BAAI7H2sbPeH5Sy-xiUOBF_-6AQADAgADeQADPQQ",
       "review_message_id": 137,
       "created_at": "2026-11-19T12:59:15.735585+00:00"
+    },
+    {
+      "id": "92f1473f2e67887c",
+      "status": "pending",
+      "source": "Dahua — официальный newsroom",
+      "title": "Dahua Technology оживляет здания на мероприятии Frontier Innovation Event 2026",
+      "url": "https://previous.dahuasecurity.com/newsEvents/pressRelease/10330",
+      "text": "<b>Dahua Technology оживляет здания на мероприятии Frontier Innovation Event 2026</b>\n\n20 ноября 2026 г. / Валенсия, Испания. Компания Dahua Technology, ведущий мировой поставщик видеоцентричных решений и услуг AIoT, представила свои новейшие инновации в области интеллектуальных зданий на онлайн-мероприятии Frontier Innovation Event 2026.\n\nИсточник: Dahua — официальный newsroom\n<a href=\"https://previous.dahuasecurity.com/newsEvents/pressRelease/10330\">Читать полностью</a>",
+      "image_url": "https://materialfile.dahuasecurity.com/uploads/image/20261120/300.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADimsAAS9QpAgnXnijl83y0nG5ejN7xwACJiJrG26XCUgZZBnKe0JCVgEAAwIAA20AAz0E",
+      "review_message_id": 138,
+      "created_at": "2026-11-20T11:30:25.190269+00:00"
+    },
+    {
+      "id": "f34fce7f3d6056d0",
+      "status": "pending",
+      "source": "iXBT Live — техника для дома",
+      "title": "Умные термоголовки после двух зим: чем закончились MOES, как я чинил Aqara E1 и почему следующими будут Sonoff",
+      "url": "https://www.ixbt.com/live/chome/umnye-termogolovki-posle-dvuh-zim-chem-zakonchilis-moes-kak-ya-chinil-aqara-e1-i-pochemu-sleduyuschimi-budut-sonoff.html",
+      "text": "<b>Умные термоголовки после двух зим: чем закончились MOES, как я чинил Aqara E1 и почему следующими будут Sonoff</b>\n\nДве отопительные зимы у меня в доме и квартире работают умные термоголовки четырёх моделей: MOES HY368, Aqara E1, Sonoff TRVZB и новая Sonoff TRV Gen2. Все подключены к Home Assistant через... Читать дальше\n\nИсточник: iXBT Live — техника для дома\n<a href=\"https://www.ixbt.com/live/chome/umnye-termogolovki-posle-dvuh-zim-chem-zakonchilis-moes-kak-ya-chinil-aqara-e1-i-pochemu-sleduyuschimi-budut-sonoff.html\">Читать полностью</a>",
+      "image_url": "https://img.ixbt.site/live/topics/preview/00/17/78/71/c48991338a.jpg?w=1600&h=900&resize=entropy&format=jpeg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADi2sAAS9TWYarKzYKK096sWCpv0friQACJyJrG26XCUhp42zg2lCrIgEAAwIAA3kAAz0E",
+      "review_message_id": 139,
+      "created_at": "2026-11-20T11:30:27.678947+00:00"
     }
   ]
 }
