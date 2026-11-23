@@ -998,6 +998,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADi2sAAS9TWYarKzYKK096sWCpv0friQACJyJrG26XCUhp42zg2lCrIgEAAwIAA3kAAz0E",
       "review_message_id": 139,
       "created_at": "2026-11-20T11:30:27.678947+00:00"
+    },
+    {
+      "id": "798bc9b024bc8fb1",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "От радиоточки до локального управления умным домом",
+      "url": "https://habr.com/ru/articles/1111442",
+      "text": "<b>От радиоточки до локального управления умным домом</b>\n\nКак построить свой умный дом с мультирумом, локальными голосовыми ассистентами и не сливать свои разговоры через Алису. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1111442\">Читать полностью</a>",
+      "image_url": "https://habr.com/share/publication/1111442/d68b614a9052a4bff5524218d61a3236/",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADjGsEnbZcYG0ECI5hDhGLNjGRvm8MAAIcJ2sb574hSEpqhMoAAcLl-AEAAwIAA3kAAz0E",
+      "review_message_id": 140,
+      "created_at": "2026-11-23T20:10:30.395542+00:00"
     }
   ]
 }
