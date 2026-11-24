@@ -1010,6 +1010,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADjGsEnbZcYG0ECI5hDhGLNjGRvm8MAAIcJ2sb574hSEpqhMoAAcLl-AEAAwIAA3kAAz0E",
       "review_message_id": 140,
       "created_at": "2026-11-23T20:10:30.395542+00:00"
+    },
+    {
+      "id": "564402ece583963e",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Google закроет приложение умного дома Nest в начале следующего года",
+      "url": "https://habr.com/ru/articles/1111714",
+      "text": "<b>Google закроет приложение умного дома Nest в начале следующего года</b>\n\nGoogle окончательно прекращает поддержку приложения для умного дома Nest 25 января 2027 года. Чтобы и дальше управлять устройствами Nest удалённо и получать от них уведомления, потребуется установить новую версию Google Home. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1111714\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/77/fb/3a/77fb3a74eceb8ff64dd0e90a118db2f6.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADj2sFskSOvSflSZrujFgfMBpAe6xfAAJnIWsb574pSGy3z-epC5ndAQADAgADdwADPQQ",
+      "review_message_id": 143,
+      "created_at": "2026-11-24T15:50:28.364157+00:00"
     }
   ]
 }
