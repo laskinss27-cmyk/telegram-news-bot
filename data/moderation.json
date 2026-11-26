@@ -1022,6 +1022,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADj2sFskSOvSflSZrujFgfMBpAe6xfAAJnIWsb574pSGy3z-epC5ndAQADAgADdwADPQQ",
       "review_message_id": 143,
       "created_at": "2026-11-24T15:50:28.364157+00:00"
+    },
+    {
+      "id": "abe4f782f9dc9b16",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Как я запитал бытовку от солнечной станции,",
+      "url": "https://habr.com/ru/articles/1112378",
+      "text": "<b>Как я запитал бытовку от солнечной станции,</b>\n\nКак я запитал бытовку от солнечной станции, Я увлекаюсь техникой поэтому дачная бытовка для меня это не только сарай для лопат, но и основной полигон для испытаний камер видеонаблюдения, радиостанций, мештастика, мешкора. Конечно, на таком полигоне должен быть и интернет. А значит роутер, свитч, видеорегистратор. И эти хотелки всегда растут. Но давайте с начала. Молдова. Пригород Кишинёва.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1112378\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/9b/97/e1/9b97e1dfc133a1c50ba85b90aed6838a.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADkGsHnk6AW8HYOtZfBDhauy_2v7HSAAI6H2sbjXVBSHPgWx7fQX_VAQADAgADeAADPQQ",
+      "review_message_id": 144,
+      "created_at": "2026-11-26T02:49:50.333697+00:00"
     }
   ]
 }
