@@ -528,6 +528,12 @@
       "url": "https://habr.com/ru/articles/1112378",
       "title": "Как я запитал бытовку от солнечной станции,",
       "posted_at": "2026-11-26T02:49:50.335125+00:00"
+    },
+    {
+      "key": "c1835c1d0c4698461c2093fd57e071b2ffb428754d3ebc43598c0affe2d381d4",
+      "url": "https://habr.com/ru/companies/sberbank/articles/1112286",
+      "title": "GigaEdge LLM: модель на 129 млн параметров для умного дома",
+      "posted_at": "2026-11-27T15:00:32.433309+00:00"
     }
   ]
 }

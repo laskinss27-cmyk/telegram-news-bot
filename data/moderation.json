@@ -1034,6 +1034,18 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADkGsHnk6AW8HYOtZfBDhauy_2v7HSAAI6H2sbjXVBSHPgWx7fQX_VAQADAgADeAADPQQ",
       "review_message_id": 144,
       "created_at": "2026-11-26T02:49:50.333697+00:00"
+    },
+    {
+      "id": "c1835c1d0c469846",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "GigaEdge LLM: модель на 129 млн параметров для умного дома",
+      "url": "https://habr.com/ru/companies/sberbank/articles/1112286",
+      "text": "<b>GigaEdge LLM: модель на 129 млн параметров для умного дома</b>\n\nМы открыли GigaEdge LLM — модель на 129 млн параметров для умного дома. После квантования она занимает 73 МБ и выполняет команды прямо на CPU колонки, даже без интернета. В статье расскажу, как мы обучали модель, за счёт чего она обрабатывает ход за 0,3–0,4 секунды и как справляется с командами по сравнению с большими моделями. Читать далее\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/companies/sberbank/articles/1112286\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/8c/99/53/8c995356656bf60a48c8631fb6308b62.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADkWsJmxAGitHqqruRWPwbj2YRfYUvAAK3JWsb7HlJSIFFEMvb-dxwAQADAgADdwADPQQ",
+      "review_message_id": 145,
+      "created_at": "2026-11-27T15:00:32.431475+00:00"
     }
   ]
 }
