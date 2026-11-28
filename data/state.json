@@ -534,6 +534,18 @@
       "url": "https://habr.com/ru/companies/sberbank/articles/1112286",
       "title": "GigaEdge LLM: модель на 129 млн параметров для умного дома",
       "posted_at": "2026-11-27T15:00:32.433309+00:00"
+    },
+    {
+      "key": "4770a761bc4217836aaa342c8a575d16091fd59c449522d4d334f86db3735a2c",
+      "url": "https://habr.com/ru/articles/1113412",
+      "title": "Cupertino Widgets: календарь и заряд устройств для Home Assistant в стиле виджетов смартфона",
+      "posted_at": "2026-11-28T16:51:16.320371+00:00"
+    },
+    {
+      "key": "4dfcc52bd6147537c2e7b73088bfa3e9b2c799e161154932b0c03a0fbea21ce6",
+      "url": "https://www.ferra.ru/news/v-rossii/sber-otkryl-modeli-dlya-sozdaniya-golosovogo-upravleniya-umnym-domom-28-11-2026.htm",
+      "title": "Сбер открыл модели для создания голосового управления умным домом",
+      "posted_at": "2026-11-28T16:51:19.587964+00:00"
     }
   ]
 }

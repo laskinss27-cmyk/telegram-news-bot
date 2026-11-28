@@ -1046,6 +1046,30 @@
       "photo_file_id": "AgACAgIAAyEGAAMBB811RAADkWsJmxAGitHqqruRWPwbj2YRfYUvAAK3JWsb7HlJSIFFEMvb-dxwAQADAgADdwADPQQ",
       "review_message_id": 145,
       "created_at": "2026-11-27T15:00:32.431475+00:00"
+    },
+    {
+      "id": "4770a761bc421783",
+      "status": "pending",
+      "source": "Хабр — Умный дом",
+      "title": "Cupertino Widgets: календарь и заряд устройств для Home Assistant в стиле виджетов смартфона",
+      "url": "https://habr.com/ru/articles/1113412",
+      "text": "<b>Cupertino Widgets: календарь и заряд устройств для Home Assistant в стиле виджетов смартфона</b>\n\nЯ делаю небольшой набор карточек для Home Assistant, которые выглядят как виджеты на домашнем экране смартфона. Первые две уже готовы: календарь и карточка заряда устройств. Календарь. Сначала он показывает сегодняшнюю дату и события на сегодня, а затем события ближайших дней, сколько поместится в карточку. Всё идёт одним списком. События выделяются цветом, который уже задан у сущности календаря.\n\nИсточник: Хабр — Умный дом\n<a href=\"https://habr.com/ru/articles/1113412\">Читать полностью</a>",
+      "image_url": "https://habrastorage.org/extt/a4/67/8d/a4678d010a4ce06f1aaad667ed558007.jpg",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADkmsLBoSPJKJ6jyMhP8W2q3-y3SItAALZK2sbm2ZYSC1mNGZNWpbBAQADAgADeQADPQQ",
+      "review_message_id": 146,
+      "created_at": "2026-11-28T16:51:16.317936+00:00"
+    },
+    {
+      "id": "4dfcc52bd6147537",
+      "status": "pending",
+      "source": "Ferra — технологии",
+      "title": "Сбер открыл модели для создания голосового управления умным домом",
+      "url": "https://www.ferra.ru/news/v-rossii/sber-otkryl-modeli-dlya-sozdaniya-golosovogo-upravleniya-umnym-domom-28-11-2026.htm",
+      "text": "<b>Сбер открыл модели для создания голосового управления умным домом</b>\n\nСбер представил набор ИИ-моделей, с помощью которых разработчики смогут создавать собственных голосовых помощников для умного дома. Решение рассчитано на работу непосредственно на домашних компьютерах и смартфонах, поэтому для выполнения команд не обязательно постоянно обращаться к облачным серверам.\n\nИсточник: Ferra — технологии\n<a href=\"https://www.ferra.ru/news/v-rossii/sber-otkryl-modeli-dlya-sozdaniya-golosovogo-upravleniya-umnym-domom-28-11-2026.htm\">Читать полностью</a>",
+      "image_url": "https://www.ferra.ru/imgs/2026/11/28/12/7024714/5ad93ef5444b63f715f9e2fa988fff0cbcbe9fe3.png",
+      "photo_file_id": "AgACAgIAAyEGAAMBB811RAADk2sLBocLaJN_6ca9_WhjYUJW7mRwAALaK2sbm2ZYSMNOXVtpv-N0AQADAgADdwADPQQ",
+      "review_message_id": 147,
+      "created_at": "2026-11-28T16:51:19.585607+00:00"
     }
   ]
 }
